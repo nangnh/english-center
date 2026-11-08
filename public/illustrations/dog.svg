@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Con chó">
+  <ellipse cx="60" cy="70" rx="34" ry="30" fill="#c58b5a"/>
+  <ellipse cx="30" cy="54" rx="10" ry="20" fill="#9c6a3f"/>
+  <ellipse cx="90" cy="54" rx="10" ry="20" fill="#9c6a3f"/>
+  <circle cx="49" cy="66" r="5" fill="#1f3a2b"/>
+  <circle cx="71" cy="66" r="5" fill="#1f3a2b"/>
+  <ellipse cx="60" cy="80" rx="8" ry="6" fill="#1f3a2b"/>
+  <path d="M60 86 v8" stroke="#1f3a2b" stroke-width="3" stroke-linecap="round"/>
+</svg>

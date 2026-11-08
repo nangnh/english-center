@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Hộp sữa">
+  <path d="M42 50 L78 50 L78 96 L42 96 Z" fill="#eef4ff" stroke="#9fb6d6" stroke-width="2"/>
+  <path d="M42 50 L60 32 L78 50 Z" fill="#dce8fb" stroke="#9fb6d6" stroke-width="2"/>
+  <rect x="48" y="62" width="24" height="20" rx="3" fill="#5aa9e6"/>
+  <path d="M52 72 h16" stroke="#fff" stroke-width="3"/>
+</svg>

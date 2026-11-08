@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Con cá">
+  <ellipse cx="54" cy="60" rx="34" ry="22" fill="#ff914d"/>
+  <polygon points="88,60 112,42 112,78" fill="#ff7aa8"/>
+  <circle cx="38" cy="54" r="5" fill="#1f3a2b"/>
+  <path d="M54 46 q10 -10 20 -4" fill="none" stroke="#e0712f" stroke-width="3"/>
+  <path d="M54 74 q10 10 20 4" fill="none" stroke="#e0712f" stroke-width="3"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Cây bút mực">
+  <rect x="34" y="30" width="18" height="60" rx="6" transform="rotate(-20 43 60)" fill="#2f6fd6"/>
+  <polygon points="30,96 40,86 48,92" fill="#1f3a2b"/>
+  <rect x="40" y="34" width="18" height="10" rx="4" transform="rotate(-20 49 39)" fill="#ffcf3f"/>
+</svg>

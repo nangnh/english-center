@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Con ếch">
+  <ellipse cx="60" cy="74" rx="36" ry="26" fill="#57c977"/>
+  <circle cx="42" cy="46" r="12" fill="#57c977"/>
+  <circle cx="78" cy="46" r="12" fill="#57c977"/>
+  <circle cx="42" cy="46" r="5" fill="#1f3a2b"/>
+  <circle cx="78" cy="46" r="5" fill="#1f3a2b"/>
+  <path d="M46 80 q14 10 28 0" fill="none" stroke="#1f3a2b" stroke-width="3" stroke-linecap="round"/>
+</svg>

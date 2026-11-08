@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Cặp sách">
+  <path d="M34 50 h52 a6 6 0 0 1 6 6 v34 a6 6 0 0 1 -6 6 h-52 a6 6 0 0 1 -6 -6 v-34 a6 6 0 0 1 6 -6 Z" fill="#e23c3c"/>
+  <path d="M46 50 a14 14 0 0 1 28 0" fill="none" stroke="#9c2626" stroke-width="4"/>
+  <rect x="46" y="66" width="28" height="16" rx="3" fill="#ffcf3f"/>
+</svg>

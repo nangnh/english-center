@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Quả chuối">
+  <path d="M28 42 C34 78 62 98 96 86 C100 84 100 78 94 78 C66 84 44 66 40 40 C39 34 29 36 28 42 Z" fill="#ffd23f"/>
+  <path d="M94 78 C72 82 52 68 46 46" fill="none" stroke="#e0a81d" stroke-width="3"/>
+  <rect x="26" y="34" width="8" height="12" rx="3" fill="#6b4b2b"/>
+</svg>

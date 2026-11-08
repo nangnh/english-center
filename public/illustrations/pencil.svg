@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Bút chì">
+  <rect x="38" y="28" width="16" height="58" transform="rotate(-18 46 57)" fill="#ffcf3f"/>
+  <polygon points="28,94 36,80 46,86" fill="#f6b17a"/>
+  <polygon points="28,94 32,86 36,80" fill="#1f3a2b"/>
+  <rect x="44" y="24" width="16" height="10" transform="rotate(-18 52 29)" fill="#ff7aa8"/>
+</svg>

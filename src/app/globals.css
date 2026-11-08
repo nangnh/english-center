@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-rounded: "Nunito", "Segoe UI", system-ui, sans-serif;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: theme("colors.garden.sky");
+  color: theme("colors.garden.ink");
+  font-family: var(--font-rounded);
+  min-height: 100vh;
+}
+
+/* Vùng focus rõ ràng cho điều hướng bàn phím */
+:focus-visible {
+  outline: 3px solid theme("colors.garden.leaf");
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

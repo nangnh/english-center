@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Bát cơm">
+  <path d="M28 66 C28 86 92 86 92 66 Z" fill="#eef4ff" stroke="#9fb6d6" stroke-width="2"/>
+  <path d="M34 62 C40 50 80 50 86 62 C78 56 42 56 34 62 Z" fill="#ffffff" stroke="#d7e0ee" stroke-width="2"/>
+  <line x1="70" y1="40" x2="92" y2="36" stroke="#6b4b2b" stroke-width="3"/>
+  <line x1="70" y1="46" x2="92" y2="44" stroke="#6b4b2b" stroke-width="3"/>
+</svg>

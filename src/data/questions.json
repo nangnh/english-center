@@ -1,0 +1,5227 @@
+[
+  {
+    "id": "c-001",
+    "kind": "choice",
+    "topic": "animals",
+    "difficulty": 1,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “con mèo”?",
+    "questionEn": "Choose the word for \"con mèo\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "cat"
+      },
+      {
+        "id": "o2",
+        "textEn": "dog"
+      },
+      {
+        "id": "o3",
+        "textEn": "bird"
+      },
+      {
+        "id": "o4",
+        "textEn": "fish"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“con mèo” trong tiếng Anh là “cat”."
+  },
+  {
+    "id": "c-002",
+    "kind": "choice",
+    "topic": "animals",
+    "difficulty": 1,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “con chó”?",
+    "questionEn": "Choose the word for \"con chó\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "dog"
+      },
+      {
+        "id": "o2",
+        "textEn": "cat"
+      },
+      {
+        "id": "o3",
+        "textEn": "bird"
+      },
+      {
+        "id": "o4",
+        "textEn": "fish"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“con chó” trong tiếng Anh là “dog”."
+  },
+  {
+    "id": "c-003",
+    "kind": "choice",
+    "topic": "animals",
+    "difficulty": 2,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “con chim”?",
+    "questionEn": "Choose the word for \"con chim\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "bird"
+      },
+      {
+        "id": "o2",
+        "textEn": "cat"
+      },
+      {
+        "id": "o3",
+        "textEn": "dog"
+      },
+      {
+        "id": "o4",
+        "textEn": "fish"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“con chim” trong tiếng Anh là “bird”."
+  },
+  {
+    "id": "c-004",
+    "kind": "choice",
+    "topic": "animals",
+    "difficulty": 2,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “con cá”?",
+    "questionEn": "Choose the word for \"con cá\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "fish"
+      },
+      {
+        "id": "o2",
+        "textEn": "cat"
+      },
+      {
+        "id": "o3",
+        "textEn": "dog"
+      },
+      {
+        "id": "o4",
+        "textEn": "bird"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“con cá” trong tiếng Anh là “fish”."
+  },
+  {
+    "id": "c-005",
+    "kind": "choice",
+    "topic": "animals",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “con vịt”?",
+    "questionEn": "Choose the word for \"con vịt\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "duck"
+      },
+      {
+        "id": "o2",
+        "textEn": "cat"
+      },
+      {
+        "id": "o3",
+        "textEn": "dog"
+      },
+      {
+        "id": "o4",
+        "textEn": "bird"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“con vịt” trong tiếng Anh là “duck”."
+  },
+  {
+    "id": "c-006",
+    "kind": "choice",
+    "topic": "animals",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “con ếch”?",
+    "questionEn": "Choose the word for \"con ếch\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "frog"
+      },
+      {
+        "id": "o2",
+        "textEn": "cat"
+      },
+      {
+        "id": "o3",
+        "textEn": "dog"
+      },
+      {
+        "id": "o4",
+        "textEn": "bird"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“con ếch” trong tiếng Anh là “frog”."
+  },
+  {
+    "id": "f-007",
+    "kind": "fill",
+    "topic": "animals",
+    "difficulty": 1,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “con mèo”.",
+    "questionEn": "con mèo → ___",
+    "acceptedAnswers": [
+      "cat"
+    ],
+    "explanationVi": "Đáp án: “cat” nghĩa là “con mèo”."
+  },
+  {
+    "id": "f-008",
+    "kind": "fill",
+    "topic": "animals",
+    "difficulty": 1,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “con chó”.",
+    "questionEn": "con chó → ___",
+    "acceptedAnswers": [
+      "dog"
+    ],
+    "explanationVi": "Đáp án: “dog” nghĩa là “con chó”."
+  },
+  {
+    "id": "f-009",
+    "kind": "fill",
+    "topic": "animals",
+    "difficulty": 2,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “con chim”.",
+    "questionEn": "con chim → ___",
+    "acceptedAnswers": [
+      "bird"
+    ],
+    "explanationVi": "Đáp án: “bird” nghĩa là “con chim”."
+  },
+  {
+    "id": "f-010",
+    "kind": "fill",
+    "topic": "animals",
+    "difficulty": 2,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “con cá”.",
+    "questionEn": "con cá → ___",
+    "acceptedAnswers": [
+      "fish"
+    ],
+    "explanationVi": "Đáp án: “fish” nghĩa là “con cá”."
+  },
+  {
+    "id": "f-011",
+    "kind": "fill",
+    "topic": "animals",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “con vịt”.",
+    "questionEn": "con vịt → ___",
+    "acceptedAnswers": [
+      "duck"
+    ],
+    "explanationVi": "Đáp án: “duck” nghĩa là “con vịt”."
+  },
+  {
+    "id": "f-012",
+    "kind": "fill",
+    "topic": "animals",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “con ếch”.",
+    "questionEn": "con ếch → ___",
+    "acceptedAnswers": [
+      "frog"
+    ],
+    "explanationVi": "Đáp án: “frog” nghĩa là “con ếch”."
+  },
+  {
+    "id": "l-013",
+    "kind": "listening-choice",
+    "topic": "animals",
+    "difficulty": 1,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "cat",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "con mèo"
+      },
+      {
+        "id": "o2",
+        "textEn": "con chó"
+      },
+      {
+        "id": "o3",
+        "textEn": "con chim"
+      },
+      {
+        "id": "o4",
+        "textEn": "con cá"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "cat"
+    },
+    "explanationVi": "Từ “cat” nghĩa là “con mèo”."
+  },
+  {
+    "id": "l-014",
+    "kind": "listening-choice",
+    "topic": "animals",
+    "difficulty": 1,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "dog",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "con chó"
+      },
+      {
+        "id": "o2",
+        "textEn": "con mèo"
+      },
+      {
+        "id": "o3",
+        "textEn": "con chim"
+      },
+      {
+        "id": "o4",
+        "textEn": "con cá"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "dog"
+    },
+    "explanationVi": "Từ “dog” nghĩa là “con chó”."
+  },
+  {
+    "id": "l-015",
+    "kind": "listening-choice",
+    "topic": "animals",
+    "difficulty": 2,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "bird",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "con chim"
+      },
+      {
+        "id": "o2",
+        "textEn": "con mèo"
+      },
+      {
+        "id": "o3",
+        "textEn": "con chó"
+      },
+      {
+        "id": "o4",
+        "textEn": "con cá"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "bird"
+    },
+    "explanationVi": "Từ “bird” nghĩa là “con chim”."
+  },
+  {
+    "id": "l-016",
+    "kind": "listening-choice",
+    "topic": "animals",
+    "difficulty": 2,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "fish",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "con cá"
+      },
+      {
+        "id": "o2",
+        "textEn": "con mèo"
+      },
+      {
+        "id": "o3",
+        "textEn": "con chó"
+      },
+      {
+        "id": "o4",
+        "textEn": "con chim"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "fish"
+    },
+    "explanationVi": "Từ “fish” nghĩa là “con cá”."
+  },
+  {
+    "id": "l-017",
+    "kind": "listening-choice",
+    "topic": "animals",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "duck",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "con vịt"
+      },
+      {
+        "id": "o2",
+        "textEn": "con mèo"
+      },
+      {
+        "id": "o3",
+        "textEn": "con chó"
+      },
+      {
+        "id": "o4",
+        "textEn": "con chim"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "duck"
+    },
+    "explanationVi": "Từ “duck” nghĩa là “con vịt”."
+  },
+  {
+    "id": "l-018",
+    "kind": "listening-choice",
+    "topic": "animals",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "frog",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "con ếch"
+      },
+      {
+        "id": "o2",
+        "textEn": "con mèo"
+      },
+      {
+        "id": "o3",
+        "textEn": "con chó"
+      },
+      {
+        "id": "o4",
+        "textEn": "con chim"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "frog"
+    },
+    "explanationVi": "Từ “frog” nghĩa là “con ếch”."
+  },
+  {
+    "id": "p-019",
+    "kind": "picture-choice",
+    "topic": "animals",
+    "difficulty": 1,
+    "promptVi": "Chọn tranh đúng với từ “cat”.",
+    "questionEn": "Which picture shows \"cat\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/cat.svg",
+        "alt": "Con mèo màu cam"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/dog.svg",
+        "alt": "Con chó màu nâu"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/bird.svg",
+        "alt": "Con chim màu xanh"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“cat” nghĩa là “con mèo”."
+  },
+  {
+    "id": "p-020",
+    "kind": "picture-choice",
+    "topic": "animals",
+    "difficulty": 1,
+    "promptVi": "Chọn tranh đúng với từ “dog”.",
+    "questionEn": "Which picture shows \"dog\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/dog.svg",
+        "alt": "Con chó màu nâu"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/cat.svg",
+        "alt": "Con mèo màu cam"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/bird.svg",
+        "alt": "Con chim màu xanh"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“dog” nghĩa là “con chó”."
+  },
+  {
+    "id": "p-021",
+    "kind": "picture-choice",
+    "topic": "animals",
+    "difficulty": 2,
+    "promptVi": "Chọn tranh đúng với từ “bird”.",
+    "questionEn": "Which picture shows \"bird\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/bird.svg",
+        "alt": "Con chim màu xanh"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/cat.svg",
+        "alt": "Con mèo màu cam"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/dog.svg",
+        "alt": "Con chó màu nâu"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“bird” nghĩa là “con chim”."
+  },
+  {
+    "id": "p-022",
+    "kind": "picture-choice",
+    "topic": "animals",
+    "difficulty": 2,
+    "promptVi": "Chọn tranh đúng với từ “fish”.",
+    "questionEn": "Which picture shows \"fish\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/fish.svg",
+        "alt": "Con cá màu cam"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/cat.svg",
+        "alt": "Con mèo màu cam"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/dog.svg",
+        "alt": "Con chó màu nâu"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“fish” nghĩa là “con cá”."
+  },
+  {
+    "id": "p-023",
+    "kind": "picture-choice",
+    "topic": "animals",
+    "difficulty": 3,
+    "promptVi": "Chọn tranh đúng với từ “duck”.",
+    "questionEn": "Which picture shows \"duck\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/duck.svg",
+        "alt": "Con vịt màu vàng"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/cat.svg",
+        "alt": "Con mèo màu cam"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/dog.svg",
+        "alt": "Con chó màu nâu"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“duck” nghĩa là “con vịt”."
+  },
+  {
+    "id": "p-024",
+    "kind": "picture-choice",
+    "topic": "animals",
+    "difficulty": 3,
+    "promptVi": "Chọn tranh đúng với từ “frog”.",
+    "questionEn": "Which picture shows \"frog\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/frog.svg",
+        "alt": "Con ếch màu xanh lá"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/cat.svg",
+        "alt": "Con mèo màu cam"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/dog.svg",
+        "alt": "Con chó màu nâu"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“frog” nghĩa là “con ếch”."
+  },
+  {
+    "id": "m-025",
+    "kind": "matching",
+    "topic": "animals",
+    "difficulty": 1,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "cat",
+        "rightVi": "con mèo"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "dog",
+        "rightVi": "con chó"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "bird",
+        "rightVi": "con chim"
+      }
+    ],
+    "explanationVi": "cat = con mèo; dog = con chó; bird = con chim."
+  },
+  {
+    "id": "m-026",
+    "kind": "matching",
+    "topic": "animals",
+    "difficulty": 1,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "dog",
+        "rightVi": "con chó"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "bird",
+        "rightVi": "con chim"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "fish",
+        "rightVi": "con cá"
+      }
+    ],
+    "explanationVi": "dog = con chó; bird = con chim; fish = con cá."
+  },
+  {
+    "id": "m-027",
+    "kind": "matching",
+    "topic": "animals",
+    "difficulty": 2,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "bird",
+        "rightVi": "con chim"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "fish",
+        "rightVi": "con cá"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "duck",
+        "rightVi": "con vịt"
+      }
+    ],
+    "explanationVi": "bird = con chim; fish = con cá; duck = con vịt."
+  },
+  {
+    "id": "m-028",
+    "kind": "matching",
+    "topic": "animals",
+    "difficulty": 2,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "fish",
+        "rightVi": "con cá"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "duck",
+        "rightVi": "con vịt"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "frog",
+        "rightVi": "con ếch"
+      }
+    ],
+    "explanationVi": "fish = con cá; duck = con vịt; frog = con ếch."
+  },
+  {
+    "id": "s-029",
+    "kind": "spell-fill",
+    "topic": "animals",
+    "difficulty": 1,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “con mèo”.",
+    "answerEn": "cat",
+    "blankIndexes": [
+      1
+    ],
+    "explanationVi": "Từ đúng là “cat” nghĩa là “con mèo”."
+  },
+  {
+    "id": "s-030",
+    "kind": "spell-fill",
+    "topic": "animals",
+    "difficulty": 1,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “con chó”.",
+    "answerEn": "dog",
+    "blankIndexes": [
+      1
+    ],
+    "explanationVi": "Từ đúng là “dog” nghĩa là “con chó”."
+  },
+  {
+    "id": "s-031",
+    "kind": "spell-fill",
+    "topic": "animals",
+    "difficulty": 2,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “con chim”.",
+    "answerEn": "bird",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “bird” nghĩa là “con chim”."
+  },
+  {
+    "id": "s-032",
+    "kind": "spell-fill",
+    "topic": "animals",
+    "difficulty": 2,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “con cá”.",
+    "answerEn": "fish",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “fish” nghĩa là “con cá”."
+  },
+  {
+    "id": "s-033",
+    "kind": "spell-fill",
+    "topic": "animals",
+    "difficulty": 3,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “con vịt”.",
+    "answerEn": "duck",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “duck” nghĩa là “con vịt”."
+  },
+  {
+    "id": "s-034",
+    "kind": "spell-fill",
+    "topic": "animals",
+    "difficulty": 3,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “con ếch”.",
+    "answerEn": "frog",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “frog” nghĩa là “con ếch”."
+  },
+  {
+    "id": "u-035",
+    "kind": "unscramble",
+    "topic": "animals",
+    "difficulty": 1,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “con mèo”.",
+    "answerEn": "cat",
+    "explanationVi": "Từ đúng là “cat” nghĩa là “con mèo”."
+  },
+  {
+    "id": "u-036",
+    "kind": "unscramble",
+    "topic": "animals",
+    "difficulty": 1,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “con chó”.",
+    "answerEn": "dog",
+    "explanationVi": "Từ đúng là “dog” nghĩa là “con chó”."
+  },
+  {
+    "id": "u-037",
+    "kind": "unscramble",
+    "topic": "animals",
+    "difficulty": 2,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “con chim”.",
+    "answerEn": "bird",
+    "explanationVi": "Từ đúng là “bird” nghĩa là “con chim”."
+  },
+  {
+    "id": "u-038",
+    "kind": "unscramble",
+    "topic": "animals",
+    "difficulty": 2,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “con cá”.",
+    "answerEn": "fish",
+    "explanationVi": "Từ đúng là “fish” nghĩa là “con cá”."
+  },
+  {
+    "id": "u-039",
+    "kind": "unscramble",
+    "topic": "animals",
+    "difficulty": 3,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “con vịt”.",
+    "answerEn": "duck",
+    "explanationVi": "Từ đúng là “duck” nghĩa là “con vịt”."
+  },
+  {
+    "id": "u-040",
+    "kind": "unscramble",
+    "topic": "animals",
+    "difficulty": 3,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “con ếch”.",
+    "answerEn": "frog",
+    "explanationVi": "Từ đúng là “frog” nghĩa là “con ếch”."
+  },
+  {
+    "id": "c-041",
+    "kind": "choice",
+    "topic": "food",
+    "difficulty": 1,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “cơm”?",
+    "questionEn": "Choose the word for \"cơm\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "rice"
+      },
+      {
+        "id": "o2",
+        "textEn": "bread"
+      },
+      {
+        "id": "o3",
+        "textEn": "banana"
+      },
+      {
+        "id": "o4",
+        "textEn": "milk"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“cơm” trong tiếng Anh là “rice”."
+  },
+  {
+    "id": "c-042",
+    "kind": "choice",
+    "topic": "food",
+    "difficulty": 1,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “bánh mì”?",
+    "questionEn": "Choose the word for \"bánh mì\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "bread"
+      },
+      {
+        "id": "o2",
+        "textEn": "rice"
+      },
+      {
+        "id": "o3",
+        "textEn": "banana"
+      },
+      {
+        "id": "o4",
+        "textEn": "milk"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“bánh mì” trong tiếng Anh là “bread”."
+  },
+  {
+    "id": "c-043",
+    "kind": "choice",
+    "topic": "food",
+    "difficulty": 2,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “quả chuối”?",
+    "questionEn": "Choose the word for \"quả chuối\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "banana"
+      },
+      {
+        "id": "o2",
+        "textEn": "rice"
+      },
+      {
+        "id": "o3",
+        "textEn": "bread"
+      },
+      {
+        "id": "o4",
+        "textEn": "milk"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“quả chuối” trong tiếng Anh là “banana”."
+  },
+  {
+    "id": "c-044",
+    "kind": "choice",
+    "topic": "food",
+    "difficulty": 2,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “sữa”?",
+    "questionEn": "Choose the word for \"sữa\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "milk"
+      },
+      {
+        "id": "o2",
+        "textEn": "rice"
+      },
+      {
+        "id": "o3",
+        "textEn": "bread"
+      },
+      {
+        "id": "o4",
+        "textEn": "banana"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“sữa” trong tiếng Anh là “milk”."
+  },
+  {
+    "id": "c-045",
+    "kind": "choice",
+    "topic": "food",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “quả táo”?",
+    "questionEn": "Choose the word for \"quả táo\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "apple"
+      },
+      {
+        "id": "o2",
+        "textEn": "rice"
+      },
+      {
+        "id": "o3",
+        "textEn": "bread"
+      },
+      {
+        "id": "o4",
+        "textEn": "banana"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“quả táo” trong tiếng Anh là “apple”."
+  },
+  {
+    "id": "c-046",
+    "kind": "choice",
+    "topic": "food",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “quả trứng”?",
+    "questionEn": "Choose the word for \"quả trứng\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "egg"
+      },
+      {
+        "id": "o2",
+        "textEn": "rice"
+      },
+      {
+        "id": "o3",
+        "textEn": "bread"
+      },
+      {
+        "id": "o4",
+        "textEn": "banana"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“quả trứng” trong tiếng Anh là “egg”."
+  },
+  {
+    "id": "f-047",
+    "kind": "fill",
+    "topic": "food",
+    "difficulty": 1,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “cơm”.",
+    "questionEn": "cơm → ___",
+    "acceptedAnswers": [
+      "rice"
+    ],
+    "explanationVi": "Đáp án: “rice” nghĩa là “cơm”."
+  },
+  {
+    "id": "f-048",
+    "kind": "fill",
+    "topic": "food",
+    "difficulty": 1,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “bánh mì”.",
+    "questionEn": "bánh mì → ___",
+    "acceptedAnswers": [
+      "bread"
+    ],
+    "explanationVi": "Đáp án: “bread” nghĩa là “bánh mì”."
+  },
+  {
+    "id": "f-049",
+    "kind": "fill",
+    "topic": "food",
+    "difficulty": 2,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “quả chuối”.",
+    "questionEn": "quả chuối → ___",
+    "acceptedAnswers": [
+      "banana"
+    ],
+    "explanationVi": "Đáp án: “banana” nghĩa là “quả chuối”."
+  },
+  {
+    "id": "f-050",
+    "kind": "fill",
+    "topic": "food",
+    "difficulty": 2,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “sữa”.",
+    "questionEn": "sữa → ___",
+    "acceptedAnswers": [
+      "milk"
+    ],
+    "explanationVi": "Đáp án: “milk” nghĩa là “sữa”."
+  },
+  {
+    "id": "f-051",
+    "kind": "fill",
+    "topic": "food",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “quả táo”.",
+    "questionEn": "quả táo → ___",
+    "acceptedAnswers": [
+      "apple"
+    ],
+    "explanationVi": "Đáp án: “apple” nghĩa là “quả táo”."
+  },
+  {
+    "id": "f-052",
+    "kind": "fill",
+    "topic": "food",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “quả trứng”.",
+    "questionEn": "quả trứng → ___",
+    "acceptedAnswers": [
+      "egg"
+    ],
+    "explanationVi": "Đáp án: “egg” nghĩa là “quả trứng”."
+  },
+  {
+    "id": "l-053",
+    "kind": "listening-choice",
+    "topic": "food",
+    "difficulty": 1,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "rice",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "cơm"
+      },
+      {
+        "id": "o2",
+        "textEn": "bánh mì"
+      },
+      {
+        "id": "o3",
+        "textEn": "quả chuối"
+      },
+      {
+        "id": "o4",
+        "textEn": "sữa"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "rice"
+    },
+    "explanationVi": "Từ “rice” nghĩa là “cơm”."
+  },
+  {
+    "id": "l-054",
+    "kind": "listening-choice",
+    "topic": "food",
+    "difficulty": 1,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "bread",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "bánh mì"
+      },
+      {
+        "id": "o2",
+        "textEn": "cơm"
+      },
+      {
+        "id": "o3",
+        "textEn": "quả chuối"
+      },
+      {
+        "id": "o4",
+        "textEn": "sữa"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "bread"
+    },
+    "explanationVi": "Từ “bread” nghĩa là “bánh mì”."
+  },
+  {
+    "id": "l-055",
+    "kind": "listening-choice",
+    "topic": "food",
+    "difficulty": 2,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "banana",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "quả chuối"
+      },
+      {
+        "id": "o2",
+        "textEn": "cơm"
+      },
+      {
+        "id": "o3",
+        "textEn": "bánh mì"
+      },
+      {
+        "id": "o4",
+        "textEn": "sữa"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "banana"
+    },
+    "explanationVi": "Từ “banana” nghĩa là “quả chuối”."
+  },
+  {
+    "id": "l-056",
+    "kind": "listening-choice",
+    "topic": "food",
+    "difficulty": 2,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "milk",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "sữa"
+      },
+      {
+        "id": "o2",
+        "textEn": "cơm"
+      },
+      {
+        "id": "o3",
+        "textEn": "bánh mì"
+      },
+      {
+        "id": "o4",
+        "textEn": "quả chuối"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "milk"
+    },
+    "explanationVi": "Từ “milk” nghĩa là “sữa”."
+  },
+  {
+    "id": "l-057",
+    "kind": "listening-choice",
+    "topic": "food",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "apple",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "quả táo"
+      },
+      {
+        "id": "o2",
+        "textEn": "cơm"
+      },
+      {
+        "id": "o3",
+        "textEn": "bánh mì"
+      },
+      {
+        "id": "o4",
+        "textEn": "quả chuối"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "apple"
+    },
+    "explanationVi": "Từ “apple” nghĩa là “quả táo”."
+  },
+  {
+    "id": "l-058",
+    "kind": "listening-choice",
+    "topic": "food",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "egg",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "quả trứng"
+      },
+      {
+        "id": "o2",
+        "textEn": "cơm"
+      },
+      {
+        "id": "o3",
+        "textEn": "bánh mì"
+      },
+      {
+        "id": "o4",
+        "textEn": "quả chuối"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "egg"
+    },
+    "explanationVi": "Từ “egg” nghĩa là “quả trứng”."
+  },
+  {
+    "id": "p-059",
+    "kind": "picture-choice",
+    "topic": "food",
+    "difficulty": 1,
+    "promptVi": "Chọn tranh đúng với từ “rice”.",
+    "questionEn": "Which picture shows \"rice\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/rice.svg",
+        "alt": "Một bát cơm trắng"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/bread.svg",
+        "alt": "Một ổ bánh mì"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/banana.svg",
+        "alt": "Một quả chuối vàng"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“rice” nghĩa là “cơm”."
+  },
+  {
+    "id": "p-060",
+    "kind": "picture-choice",
+    "topic": "food",
+    "difficulty": 1,
+    "promptVi": "Chọn tranh đúng với từ “bread”.",
+    "questionEn": "Which picture shows \"bread\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/bread.svg",
+        "alt": "Một ổ bánh mì"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/rice.svg",
+        "alt": "Một bát cơm trắng"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/banana.svg",
+        "alt": "Một quả chuối vàng"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“bread” nghĩa là “bánh mì”."
+  },
+  {
+    "id": "p-061",
+    "kind": "picture-choice",
+    "topic": "food",
+    "difficulty": 2,
+    "promptVi": "Chọn tranh đúng với từ “banana”.",
+    "questionEn": "Which picture shows \"banana\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/banana.svg",
+        "alt": "Một quả chuối vàng"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/rice.svg",
+        "alt": "Một bát cơm trắng"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/bread.svg",
+        "alt": "Một ổ bánh mì"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“banana” nghĩa là “quả chuối”."
+  },
+  {
+    "id": "p-062",
+    "kind": "picture-choice",
+    "topic": "food",
+    "difficulty": 2,
+    "promptVi": "Chọn tranh đúng với từ “milk”.",
+    "questionEn": "Which picture shows \"milk\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/milk.svg",
+        "alt": "Một hộp sữa"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/rice.svg",
+        "alt": "Một bát cơm trắng"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/bread.svg",
+        "alt": "Một ổ bánh mì"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“milk” nghĩa là “sữa”."
+  },
+  {
+    "id": "p-063",
+    "kind": "picture-choice",
+    "topic": "food",
+    "difficulty": 3,
+    "promptVi": "Chọn tranh đúng với từ “apple”.",
+    "questionEn": "Which picture shows \"apple\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/apple.svg",
+        "alt": "Một quả táo đỏ"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/rice.svg",
+        "alt": "Một bát cơm trắng"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/bread.svg",
+        "alt": "Một ổ bánh mì"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“apple” nghĩa là “quả táo”."
+  },
+  {
+    "id": "p-064",
+    "kind": "picture-choice",
+    "topic": "food",
+    "difficulty": 3,
+    "promptVi": "Chọn tranh đúng với từ “egg”.",
+    "questionEn": "Which picture shows \"egg\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/egg.svg",
+        "alt": "Một quả trứng"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/rice.svg",
+        "alt": "Một bát cơm trắng"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/bread.svg",
+        "alt": "Một ổ bánh mì"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“egg” nghĩa là “quả trứng”."
+  },
+  {
+    "id": "m-065",
+    "kind": "matching",
+    "topic": "food",
+    "difficulty": 1,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "rice",
+        "rightVi": "cơm"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "bread",
+        "rightVi": "bánh mì"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "banana",
+        "rightVi": "quả chuối"
+      }
+    ],
+    "explanationVi": "rice = cơm; bread = bánh mì; banana = quả chuối."
+  },
+  {
+    "id": "m-066",
+    "kind": "matching",
+    "topic": "food",
+    "difficulty": 1,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "bread",
+        "rightVi": "bánh mì"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "banana",
+        "rightVi": "quả chuối"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "milk",
+        "rightVi": "sữa"
+      }
+    ],
+    "explanationVi": "bread = bánh mì; banana = quả chuối; milk = sữa."
+  },
+  {
+    "id": "m-067",
+    "kind": "matching",
+    "topic": "food",
+    "difficulty": 2,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "banana",
+        "rightVi": "quả chuối"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "milk",
+        "rightVi": "sữa"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "apple",
+        "rightVi": "quả táo"
+      }
+    ],
+    "explanationVi": "banana = quả chuối; milk = sữa; apple = quả táo."
+  },
+  {
+    "id": "m-068",
+    "kind": "matching",
+    "topic": "food",
+    "difficulty": 2,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "milk",
+        "rightVi": "sữa"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "apple",
+        "rightVi": "quả táo"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "egg",
+        "rightVi": "quả trứng"
+      }
+    ],
+    "explanationVi": "milk = sữa; apple = quả táo; egg = quả trứng."
+  },
+  {
+    "id": "s-069",
+    "kind": "spell-fill",
+    "topic": "food",
+    "difficulty": 1,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “cơm”.",
+    "answerEn": "rice",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “rice” nghĩa là “cơm”."
+  },
+  {
+    "id": "s-070",
+    "kind": "spell-fill",
+    "topic": "food",
+    "difficulty": 1,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “bánh mì”.",
+    "answerEn": "bread",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “bread” nghĩa là “bánh mì”."
+  },
+  {
+    "id": "s-071",
+    "kind": "spell-fill",
+    "topic": "food",
+    "difficulty": 2,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “quả chuối”.",
+    "answerEn": "banana",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “banana” nghĩa là “quả chuối”."
+  },
+  {
+    "id": "s-072",
+    "kind": "spell-fill",
+    "topic": "food",
+    "difficulty": 2,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “sữa”.",
+    "answerEn": "milk",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “milk” nghĩa là “sữa”."
+  },
+  {
+    "id": "s-073",
+    "kind": "spell-fill",
+    "topic": "food",
+    "difficulty": 3,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “quả táo”.",
+    "answerEn": "apple",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “apple” nghĩa là “quả táo”."
+  },
+  {
+    "id": "s-074",
+    "kind": "spell-fill",
+    "topic": "food",
+    "difficulty": 3,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “quả trứng”.",
+    "answerEn": "egg",
+    "blankIndexes": [
+      1
+    ],
+    "explanationVi": "Từ đúng là “egg” nghĩa là “quả trứng”."
+  },
+  {
+    "id": "u-075",
+    "kind": "unscramble",
+    "topic": "food",
+    "difficulty": 1,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “cơm”.",
+    "answerEn": "rice",
+    "explanationVi": "Từ đúng là “rice” nghĩa là “cơm”."
+  },
+  {
+    "id": "u-076",
+    "kind": "unscramble",
+    "topic": "food",
+    "difficulty": 1,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “bánh mì”.",
+    "answerEn": "bread",
+    "explanationVi": "Từ đúng là “bread” nghĩa là “bánh mì”."
+  },
+  {
+    "id": "u-077",
+    "kind": "unscramble",
+    "topic": "food",
+    "difficulty": 2,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “quả chuối”.",
+    "answerEn": "banana",
+    "explanationVi": "Từ đúng là “banana” nghĩa là “quả chuối”."
+  },
+  {
+    "id": "u-078",
+    "kind": "unscramble",
+    "topic": "food",
+    "difficulty": 2,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “sữa”.",
+    "answerEn": "milk",
+    "explanationVi": "Từ đúng là “milk” nghĩa là “sữa”."
+  },
+  {
+    "id": "u-079",
+    "kind": "unscramble",
+    "topic": "food",
+    "difficulty": 3,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “quả táo”.",
+    "answerEn": "apple",
+    "explanationVi": "Từ đúng là “apple” nghĩa là “quả táo”."
+  },
+  {
+    "id": "u-080",
+    "kind": "unscramble",
+    "topic": "food",
+    "difficulty": 3,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “quả trứng”.",
+    "answerEn": "egg",
+    "explanationVi": "Từ đúng là “egg” nghĩa là “quả trứng”."
+  },
+  {
+    "id": "c-081",
+    "kind": "choice",
+    "topic": "school-things",
+    "difficulty": 1,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “bút mực”?",
+    "questionEn": "Choose the word for \"bút mực\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "pen"
+      },
+      {
+        "id": "o2",
+        "textEn": "pencil"
+      },
+      {
+        "id": "o3",
+        "textEn": "ruler"
+      },
+      {
+        "id": "o4",
+        "textEn": "bag"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“bút mực” trong tiếng Anh là “pen”."
+  },
+  {
+    "id": "c-082",
+    "kind": "choice",
+    "topic": "school-things",
+    "difficulty": 1,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “bút chì”?",
+    "questionEn": "Choose the word for \"bút chì\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "pencil"
+      },
+      {
+        "id": "o2",
+        "textEn": "pen"
+      },
+      {
+        "id": "o3",
+        "textEn": "ruler"
+      },
+      {
+        "id": "o4",
+        "textEn": "bag"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“bút chì” trong tiếng Anh là “pencil”."
+  },
+  {
+    "id": "c-083",
+    "kind": "choice",
+    "topic": "school-things",
+    "difficulty": 2,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “thước kẻ”?",
+    "questionEn": "Choose the word for \"thước kẻ\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "ruler"
+      },
+      {
+        "id": "o2",
+        "textEn": "pen"
+      },
+      {
+        "id": "o3",
+        "textEn": "pencil"
+      },
+      {
+        "id": "o4",
+        "textEn": "bag"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“thước kẻ” trong tiếng Anh là “ruler”."
+  },
+  {
+    "id": "c-084",
+    "kind": "choice",
+    "topic": "school-things",
+    "difficulty": 2,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “cặp sách”?",
+    "questionEn": "Choose the word for \"cặp sách\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "bag"
+      },
+      {
+        "id": "o2",
+        "textEn": "pen"
+      },
+      {
+        "id": "o3",
+        "textEn": "pencil"
+      },
+      {
+        "id": "o4",
+        "textEn": "ruler"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“cặp sách” trong tiếng Anh là “bag”."
+  },
+  {
+    "id": "c-085",
+    "kind": "choice",
+    "topic": "school-things",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “quyển sách”?",
+    "questionEn": "Choose the word for \"quyển sách\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "book"
+      },
+      {
+        "id": "o2",
+        "textEn": "pen"
+      },
+      {
+        "id": "o3",
+        "textEn": "pencil"
+      },
+      {
+        "id": "o4",
+        "textEn": "ruler"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“quyển sách” trong tiếng Anh là “book”."
+  },
+  {
+    "id": "f-086",
+    "kind": "fill",
+    "topic": "school-things",
+    "difficulty": 1,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “bút mực”.",
+    "questionEn": "bút mực → ___",
+    "acceptedAnswers": [
+      "pen"
+    ],
+    "explanationVi": "Đáp án: “pen” nghĩa là “bút mực”."
+  },
+  {
+    "id": "f-087",
+    "kind": "fill",
+    "topic": "school-things",
+    "difficulty": 1,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “bút chì”.",
+    "questionEn": "bút chì → ___",
+    "acceptedAnswers": [
+      "pencil"
+    ],
+    "explanationVi": "Đáp án: “pencil” nghĩa là “bút chì”."
+  },
+  {
+    "id": "f-088",
+    "kind": "fill",
+    "topic": "school-things",
+    "difficulty": 2,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “thước kẻ”.",
+    "questionEn": "thước kẻ → ___",
+    "acceptedAnswers": [
+      "ruler"
+    ],
+    "explanationVi": "Đáp án: “ruler” nghĩa là “thước kẻ”."
+  },
+  {
+    "id": "f-089",
+    "kind": "fill",
+    "topic": "school-things",
+    "difficulty": 2,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “cặp sách”.",
+    "questionEn": "cặp sách → ___",
+    "acceptedAnswers": [
+      "bag"
+    ],
+    "explanationVi": "Đáp án: “bag” nghĩa là “cặp sách”."
+  },
+  {
+    "id": "f-090",
+    "kind": "fill",
+    "topic": "school-things",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “quyển sách”.",
+    "questionEn": "quyển sách → ___",
+    "acceptedAnswers": [
+      "book"
+    ],
+    "explanationVi": "Đáp án: “book” nghĩa là “quyển sách”."
+  },
+  {
+    "id": "l-091",
+    "kind": "listening-choice",
+    "topic": "school-things",
+    "difficulty": 1,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "pen",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "bút mực"
+      },
+      {
+        "id": "o2",
+        "textEn": "bút chì"
+      },
+      {
+        "id": "o3",
+        "textEn": "thước kẻ"
+      },
+      {
+        "id": "o4",
+        "textEn": "cặp sách"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "pen"
+    },
+    "explanationVi": "Từ “pen” nghĩa là “bút mực”."
+  },
+  {
+    "id": "l-092",
+    "kind": "listening-choice",
+    "topic": "school-things",
+    "difficulty": 1,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "pencil",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "bút chì"
+      },
+      {
+        "id": "o2",
+        "textEn": "bút mực"
+      },
+      {
+        "id": "o3",
+        "textEn": "thước kẻ"
+      },
+      {
+        "id": "o4",
+        "textEn": "cặp sách"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "pencil"
+    },
+    "explanationVi": "Từ “pencil” nghĩa là “bút chì”."
+  },
+  {
+    "id": "l-093",
+    "kind": "listening-choice",
+    "topic": "school-things",
+    "difficulty": 2,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "ruler",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "thước kẻ"
+      },
+      {
+        "id": "o2",
+        "textEn": "bút mực"
+      },
+      {
+        "id": "o3",
+        "textEn": "bút chì"
+      },
+      {
+        "id": "o4",
+        "textEn": "cặp sách"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "ruler"
+    },
+    "explanationVi": "Từ “ruler” nghĩa là “thước kẻ”."
+  },
+  {
+    "id": "l-094",
+    "kind": "listening-choice",
+    "topic": "school-things",
+    "difficulty": 2,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "bag",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "cặp sách"
+      },
+      {
+        "id": "o2",
+        "textEn": "bút mực"
+      },
+      {
+        "id": "o3",
+        "textEn": "bút chì"
+      },
+      {
+        "id": "o4",
+        "textEn": "thước kẻ"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "bag"
+    },
+    "explanationVi": "Từ “bag” nghĩa là “cặp sách”."
+  },
+  {
+    "id": "l-095",
+    "kind": "listening-choice",
+    "topic": "school-things",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "book",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "quyển sách"
+      },
+      {
+        "id": "o2",
+        "textEn": "bút mực"
+      },
+      {
+        "id": "o3",
+        "textEn": "bút chì"
+      },
+      {
+        "id": "o4",
+        "textEn": "thước kẻ"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "book"
+    },
+    "explanationVi": "Từ “book” nghĩa là “quyển sách”."
+  },
+  {
+    "id": "p-096",
+    "kind": "picture-choice",
+    "topic": "school-things",
+    "difficulty": 1,
+    "promptVi": "Chọn tranh đúng với từ “pen”.",
+    "questionEn": "Which picture shows \"pen\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/pen.svg",
+        "alt": "Một cây bút mực màu xanh"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/pencil.svg",
+        "alt": "Một cây bút chì vàng"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/ruler.svg",
+        "alt": "Một cây thước kẻ vàng"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“pen” nghĩa là “bút mực”."
+  },
+  {
+    "id": "p-097",
+    "kind": "picture-choice",
+    "topic": "school-things",
+    "difficulty": 1,
+    "promptVi": "Chọn tranh đúng với từ “pencil”.",
+    "questionEn": "Which picture shows \"pencil\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/pencil.svg",
+        "alt": "Một cây bút chì vàng"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/pen.svg",
+        "alt": "Một cây bút mực màu xanh"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/ruler.svg",
+        "alt": "Một cây thước kẻ vàng"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“pencil” nghĩa là “bút chì”."
+  },
+  {
+    "id": "p-098",
+    "kind": "picture-choice",
+    "topic": "school-things",
+    "difficulty": 2,
+    "promptVi": "Chọn tranh đúng với từ “ruler”.",
+    "questionEn": "Which picture shows \"ruler\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/ruler.svg",
+        "alt": "Một cây thước kẻ vàng"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/pen.svg",
+        "alt": "Một cây bút mực màu xanh"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/pencil.svg",
+        "alt": "Một cây bút chì vàng"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“ruler” nghĩa là “thước kẻ”."
+  },
+  {
+    "id": "p-099",
+    "kind": "picture-choice",
+    "topic": "school-things",
+    "difficulty": 2,
+    "promptVi": "Chọn tranh đúng với từ “bag”.",
+    "questionEn": "Which picture shows \"bag\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/bag.svg",
+        "alt": "Một chiếc cặp sách đỏ"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/pen.svg",
+        "alt": "Một cây bút mực màu xanh"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/pencil.svg",
+        "alt": "Một cây bút chì vàng"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“bag” nghĩa là “cặp sách”."
+  },
+  {
+    "id": "p-100",
+    "kind": "picture-choice",
+    "topic": "school-things",
+    "difficulty": 3,
+    "promptVi": "Chọn tranh đúng với từ “book”.",
+    "questionEn": "Which picture shows \"book\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/book.svg",
+        "alt": "Một quyển sách xanh"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/pen.svg",
+        "alt": "Một cây bút mực màu xanh"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/pencil.svg",
+        "alt": "Một cây bút chì vàng"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“book” nghĩa là “quyển sách”."
+  },
+  {
+    "id": "m-101",
+    "kind": "matching",
+    "topic": "school-things",
+    "difficulty": 1,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "pen",
+        "rightVi": "bút mực"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "pencil",
+        "rightVi": "bút chì"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "ruler",
+        "rightVi": "thước kẻ"
+      }
+    ],
+    "explanationVi": "pen = bút mực; pencil = bút chì; ruler = thước kẻ."
+  },
+  {
+    "id": "m-102",
+    "kind": "matching",
+    "topic": "school-things",
+    "difficulty": 1,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "pencil",
+        "rightVi": "bút chì"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "ruler",
+        "rightVi": "thước kẻ"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "bag",
+        "rightVi": "cặp sách"
+      }
+    ],
+    "explanationVi": "pencil = bút chì; ruler = thước kẻ; bag = cặp sách."
+  },
+  {
+    "id": "m-103",
+    "kind": "matching",
+    "topic": "school-things",
+    "difficulty": 2,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "ruler",
+        "rightVi": "thước kẻ"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "bag",
+        "rightVi": "cặp sách"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "book",
+        "rightVi": "quyển sách"
+      }
+    ],
+    "explanationVi": "ruler = thước kẻ; bag = cặp sách; book = quyển sách."
+  },
+  {
+    "id": "s-104",
+    "kind": "spell-fill",
+    "topic": "school-things",
+    "difficulty": 1,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “bút mực”.",
+    "answerEn": "pen",
+    "blankIndexes": [
+      1
+    ],
+    "explanationVi": "Từ đúng là “pen” nghĩa là “bút mực”."
+  },
+  {
+    "id": "s-105",
+    "kind": "spell-fill",
+    "topic": "school-things",
+    "difficulty": 1,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “bút chì”.",
+    "answerEn": "pencil",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “pencil” nghĩa là “bút chì”."
+  },
+  {
+    "id": "s-106",
+    "kind": "spell-fill",
+    "topic": "school-things",
+    "difficulty": 2,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “thước kẻ”.",
+    "answerEn": "ruler",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “ruler” nghĩa là “thước kẻ”."
+  },
+  {
+    "id": "s-107",
+    "kind": "spell-fill",
+    "topic": "school-things",
+    "difficulty": 2,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “cặp sách”.",
+    "answerEn": "bag",
+    "blankIndexes": [
+      1
+    ],
+    "explanationVi": "Từ đúng là “bag” nghĩa là “cặp sách”."
+  },
+  {
+    "id": "s-108",
+    "kind": "spell-fill",
+    "topic": "school-things",
+    "difficulty": 3,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “quyển sách”.",
+    "answerEn": "book",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “book” nghĩa là “quyển sách”."
+  },
+  {
+    "id": "u-109",
+    "kind": "unscramble",
+    "topic": "school-things",
+    "difficulty": 1,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “bút mực”.",
+    "answerEn": "pen",
+    "explanationVi": "Từ đúng là “pen” nghĩa là “bút mực”."
+  },
+  {
+    "id": "u-110",
+    "kind": "unscramble",
+    "topic": "school-things",
+    "difficulty": 1,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “bút chì”.",
+    "answerEn": "pencil",
+    "explanationVi": "Từ đúng là “pencil” nghĩa là “bút chì”."
+  },
+  {
+    "id": "u-111",
+    "kind": "unscramble",
+    "topic": "school-things",
+    "difficulty": 2,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “thước kẻ”.",
+    "answerEn": "ruler",
+    "explanationVi": "Từ đúng là “ruler” nghĩa là “thước kẻ”."
+  },
+  {
+    "id": "u-112",
+    "kind": "unscramble",
+    "topic": "school-things",
+    "difficulty": 2,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “cặp sách”.",
+    "answerEn": "bag",
+    "explanationVi": "Từ đúng là “bag” nghĩa là “cặp sách”."
+  },
+  {
+    "id": "u-113",
+    "kind": "unscramble",
+    "topic": "school-things",
+    "difficulty": 3,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “quyển sách”.",
+    "answerEn": "book",
+    "explanationVi": "Từ đúng là “book” nghĩa là “quyển sách”."
+  },
+  {
+    "id": "c-114",
+    "kind": "choice",
+    "topic": "colours",
+    "difficulty": 1,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “màu xanh lá”?",
+    "questionEn": "Choose the word for \"màu xanh lá\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "green"
+      },
+      {
+        "id": "o2",
+        "textEn": "yellow"
+      },
+      {
+        "id": "o3",
+        "textEn": "blue"
+      },
+      {
+        "id": "o4",
+        "textEn": "red"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“màu xanh lá” trong tiếng Anh là “green”."
+  },
+  {
+    "id": "c-115",
+    "kind": "choice",
+    "topic": "colours",
+    "difficulty": 1,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “màu vàng”?",
+    "questionEn": "Choose the word for \"màu vàng\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "yellow"
+      },
+      {
+        "id": "o2",
+        "textEn": "green"
+      },
+      {
+        "id": "o3",
+        "textEn": "blue"
+      },
+      {
+        "id": "o4",
+        "textEn": "red"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“màu vàng” trong tiếng Anh là “yellow”."
+  },
+  {
+    "id": "c-116",
+    "kind": "choice",
+    "topic": "colours",
+    "difficulty": 2,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “màu xanh dương”?",
+    "questionEn": "Choose the word for \"màu xanh dương\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "blue"
+      },
+      {
+        "id": "o2",
+        "textEn": "green"
+      },
+      {
+        "id": "o3",
+        "textEn": "yellow"
+      },
+      {
+        "id": "o4",
+        "textEn": "red"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“màu xanh dương” trong tiếng Anh là “blue”."
+  },
+  {
+    "id": "c-117",
+    "kind": "choice",
+    "topic": "colours",
+    "difficulty": 2,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “màu đỏ”?",
+    "questionEn": "Choose the word for \"màu đỏ\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "red"
+      },
+      {
+        "id": "o2",
+        "textEn": "green"
+      },
+      {
+        "id": "o3",
+        "textEn": "yellow"
+      },
+      {
+        "id": "o4",
+        "textEn": "blue"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“màu đỏ” trong tiếng Anh là “red”."
+  },
+  {
+    "id": "c-118",
+    "kind": "choice",
+    "topic": "colours",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “màu cam”?",
+    "questionEn": "Choose the word for \"màu cam\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "orange"
+      },
+      {
+        "id": "o2",
+        "textEn": "green"
+      },
+      {
+        "id": "o3",
+        "textEn": "yellow"
+      },
+      {
+        "id": "o4",
+        "textEn": "blue"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“màu cam” trong tiếng Anh là “orange”."
+  },
+  {
+    "id": "c-119",
+    "kind": "choice",
+    "topic": "colours",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “màu hồng”?",
+    "questionEn": "Choose the word for \"màu hồng\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "pink"
+      },
+      {
+        "id": "o2",
+        "textEn": "green"
+      },
+      {
+        "id": "o3",
+        "textEn": "yellow"
+      },
+      {
+        "id": "o4",
+        "textEn": "blue"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“màu hồng” trong tiếng Anh là “pink”."
+  },
+  {
+    "id": "f-120",
+    "kind": "fill",
+    "topic": "colours",
+    "difficulty": 1,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “màu xanh lá”.",
+    "questionEn": "màu xanh lá → ___",
+    "acceptedAnswers": [
+      "green"
+    ],
+    "explanationVi": "Đáp án: “green” nghĩa là “màu xanh lá”."
+  },
+  {
+    "id": "f-121",
+    "kind": "fill",
+    "topic": "colours",
+    "difficulty": 1,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “màu vàng”.",
+    "questionEn": "màu vàng → ___",
+    "acceptedAnswers": [
+      "yellow"
+    ],
+    "explanationVi": "Đáp án: “yellow” nghĩa là “màu vàng”."
+  },
+  {
+    "id": "f-122",
+    "kind": "fill",
+    "topic": "colours",
+    "difficulty": 2,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “màu xanh dương”.",
+    "questionEn": "màu xanh dương → ___",
+    "acceptedAnswers": [
+      "blue"
+    ],
+    "explanationVi": "Đáp án: “blue” nghĩa là “màu xanh dương”."
+  },
+  {
+    "id": "f-123",
+    "kind": "fill",
+    "topic": "colours",
+    "difficulty": 2,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “màu đỏ”.",
+    "questionEn": "màu đỏ → ___",
+    "acceptedAnswers": [
+      "red"
+    ],
+    "explanationVi": "Đáp án: “red” nghĩa là “màu đỏ”."
+  },
+  {
+    "id": "f-124",
+    "kind": "fill",
+    "topic": "colours",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “màu cam”.",
+    "questionEn": "màu cam → ___",
+    "acceptedAnswers": [
+      "orange"
+    ],
+    "explanationVi": "Đáp án: “orange” nghĩa là “màu cam”."
+  },
+  {
+    "id": "f-125",
+    "kind": "fill",
+    "topic": "colours",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “màu hồng”.",
+    "questionEn": "màu hồng → ___",
+    "acceptedAnswers": [
+      "pink"
+    ],
+    "explanationVi": "Đáp án: “pink” nghĩa là “màu hồng”."
+  },
+  {
+    "id": "l-126",
+    "kind": "listening-choice",
+    "topic": "colours",
+    "difficulty": 1,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "green",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "màu xanh lá"
+      },
+      {
+        "id": "o2",
+        "textEn": "màu vàng"
+      },
+      {
+        "id": "o3",
+        "textEn": "màu xanh dương"
+      },
+      {
+        "id": "o4",
+        "textEn": "màu đỏ"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "green"
+    },
+    "explanationVi": "Từ “green” nghĩa là “màu xanh lá”."
+  },
+  {
+    "id": "l-127",
+    "kind": "listening-choice",
+    "topic": "colours",
+    "difficulty": 1,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "yellow",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "màu vàng"
+      },
+      {
+        "id": "o2",
+        "textEn": "màu xanh lá"
+      },
+      {
+        "id": "o3",
+        "textEn": "màu xanh dương"
+      },
+      {
+        "id": "o4",
+        "textEn": "màu đỏ"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "yellow"
+    },
+    "explanationVi": "Từ “yellow” nghĩa là “màu vàng”."
+  },
+  {
+    "id": "l-128",
+    "kind": "listening-choice",
+    "topic": "colours",
+    "difficulty": 2,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "blue",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "màu xanh dương"
+      },
+      {
+        "id": "o2",
+        "textEn": "màu xanh lá"
+      },
+      {
+        "id": "o3",
+        "textEn": "màu vàng"
+      },
+      {
+        "id": "o4",
+        "textEn": "màu đỏ"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "blue"
+    },
+    "explanationVi": "Từ “blue” nghĩa là “màu xanh dương”."
+  },
+  {
+    "id": "l-129",
+    "kind": "listening-choice",
+    "topic": "colours",
+    "difficulty": 2,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "red",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "màu đỏ"
+      },
+      {
+        "id": "o2",
+        "textEn": "màu xanh lá"
+      },
+      {
+        "id": "o3",
+        "textEn": "màu vàng"
+      },
+      {
+        "id": "o4",
+        "textEn": "màu xanh dương"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "red"
+    },
+    "explanationVi": "Từ “red” nghĩa là “màu đỏ”."
+  },
+  {
+    "id": "l-130",
+    "kind": "listening-choice",
+    "topic": "colours",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "orange",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "màu cam"
+      },
+      {
+        "id": "o2",
+        "textEn": "màu xanh lá"
+      },
+      {
+        "id": "o3",
+        "textEn": "màu vàng"
+      },
+      {
+        "id": "o4",
+        "textEn": "màu xanh dương"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "orange"
+    },
+    "explanationVi": "Từ “orange” nghĩa là “màu cam”."
+  },
+  {
+    "id": "l-131",
+    "kind": "listening-choice",
+    "topic": "colours",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "pink",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "màu hồng"
+      },
+      {
+        "id": "o2",
+        "textEn": "màu xanh lá"
+      },
+      {
+        "id": "o3",
+        "textEn": "màu vàng"
+      },
+      {
+        "id": "o4",
+        "textEn": "màu xanh dương"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "pink"
+    },
+    "explanationVi": "Từ “pink” nghĩa là “màu hồng”."
+  },
+  {
+    "id": "p-132",
+    "kind": "picture-choice",
+    "topic": "colours",
+    "difficulty": 1,
+    "promptVi": "Chọn tranh đúng với từ “green”.",
+    "questionEn": "Which picture shows \"green\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/colour-green.svg",
+        "alt": "Hình tròn màu xanh lá"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/colour-yellow.svg",
+        "alt": "Hình tròn màu vàng"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/colour-blue.svg",
+        "alt": "Hình tròn màu xanh dương"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“green” nghĩa là “màu xanh lá”."
+  },
+  {
+    "id": "p-133",
+    "kind": "picture-choice",
+    "topic": "colours",
+    "difficulty": 1,
+    "promptVi": "Chọn tranh đúng với từ “yellow”.",
+    "questionEn": "Which picture shows \"yellow\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/colour-yellow.svg",
+        "alt": "Hình tròn màu vàng"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/colour-green.svg",
+        "alt": "Hình tròn màu xanh lá"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/colour-blue.svg",
+        "alt": "Hình tròn màu xanh dương"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“yellow” nghĩa là “màu vàng”."
+  },
+  {
+    "id": "p-134",
+    "kind": "picture-choice",
+    "topic": "colours",
+    "difficulty": 2,
+    "promptVi": "Chọn tranh đúng với từ “blue”.",
+    "questionEn": "Which picture shows \"blue\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/colour-blue.svg",
+        "alt": "Hình tròn màu xanh dương"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/colour-green.svg",
+        "alt": "Hình tròn màu xanh lá"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/colour-yellow.svg",
+        "alt": "Hình tròn màu vàng"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“blue” nghĩa là “màu xanh dương”."
+  },
+  {
+    "id": "p-135",
+    "kind": "picture-choice",
+    "topic": "colours",
+    "difficulty": 2,
+    "promptVi": "Chọn tranh đúng với từ “red”.",
+    "questionEn": "Which picture shows \"red\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/colour-red.svg",
+        "alt": "Hình tròn màu đỏ"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/colour-green.svg",
+        "alt": "Hình tròn màu xanh lá"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/colour-yellow.svg",
+        "alt": "Hình tròn màu vàng"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“red” nghĩa là “màu đỏ”."
+  },
+  {
+    "id": "p-136",
+    "kind": "picture-choice",
+    "topic": "colours",
+    "difficulty": 3,
+    "promptVi": "Chọn tranh đúng với từ “orange”.",
+    "questionEn": "Which picture shows \"orange\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/colour-orange.svg",
+        "alt": "Hình tròn màu cam"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/colour-green.svg",
+        "alt": "Hình tròn màu xanh lá"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/colour-yellow.svg",
+        "alt": "Hình tròn màu vàng"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“orange” nghĩa là “màu cam”."
+  },
+  {
+    "id": "p-137",
+    "kind": "picture-choice",
+    "topic": "colours",
+    "difficulty": 3,
+    "promptVi": "Chọn tranh đúng với từ “pink”.",
+    "questionEn": "Which picture shows \"pink\"?",
+    "options": [
+      {
+        "id": "o1",
+        "asset": "/illustrations/colour-pink.svg",
+        "alt": "Hình tròn màu hồng"
+      },
+      {
+        "id": "o2",
+        "asset": "/illustrations/colour-green.svg",
+        "alt": "Hình tròn màu xanh lá"
+      },
+      {
+        "id": "o3",
+        "asset": "/illustrations/colour-yellow.svg",
+        "alt": "Hình tròn màu vàng"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“pink” nghĩa là “màu hồng”."
+  },
+  {
+    "id": "m-138",
+    "kind": "matching",
+    "topic": "colours",
+    "difficulty": 1,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "green",
+        "rightVi": "màu xanh lá"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "yellow",
+        "rightVi": "màu vàng"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "blue",
+        "rightVi": "màu xanh dương"
+      }
+    ],
+    "explanationVi": "green = màu xanh lá; yellow = màu vàng; blue = màu xanh dương."
+  },
+  {
+    "id": "m-139",
+    "kind": "matching",
+    "topic": "colours",
+    "difficulty": 1,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "yellow",
+        "rightVi": "màu vàng"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "blue",
+        "rightVi": "màu xanh dương"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "red",
+        "rightVi": "màu đỏ"
+      }
+    ],
+    "explanationVi": "yellow = màu vàng; blue = màu xanh dương; red = màu đỏ."
+  },
+  {
+    "id": "m-140",
+    "kind": "matching",
+    "topic": "colours",
+    "difficulty": 2,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "blue",
+        "rightVi": "màu xanh dương"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "red",
+        "rightVi": "màu đỏ"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "orange",
+        "rightVi": "màu cam"
+      }
+    ],
+    "explanationVi": "blue = màu xanh dương; red = màu đỏ; orange = màu cam."
+  },
+  {
+    "id": "m-141",
+    "kind": "matching",
+    "topic": "colours",
+    "difficulty": 2,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "red",
+        "rightVi": "màu đỏ"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "orange",
+        "rightVi": "màu cam"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "pink",
+        "rightVi": "màu hồng"
+      }
+    ],
+    "explanationVi": "red = màu đỏ; orange = màu cam; pink = màu hồng."
+  },
+  {
+    "id": "s-142",
+    "kind": "spell-fill",
+    "topic": "colours",
+    "difficulty": 1,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “màu xanh lá”.",
+    "answerEn": "green",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “green” nghĩa là “màu xanh lá”."
+  },
+  {
+    "id": "s-143",
+    "kind": "spell-fill",
+    "topic": "colours",
+    "difficulty": 1,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “màu vàng”.",
+    "answerEn": "yellow",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “yellow” nghĩa là “màu vàng”."
+  },
+  {
+    "id": "s-144",
+    "kind": "spell-fill",
+    "topic": "colours",
+    "difficulty": 2,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “màu xanh dương”.",
+    "answerEn": "blue",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “blue” nghĩa là “màu xanh dương”."
+  },
+  {
+    "id": "s-145",
+    "kind": "spell-fill",
+    "topic": "colours",
+    "difficulty": 2,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “màu đỏ”.",
+    "answerEn": "red",
+    "blankIndexes": [
+      1
+    ],
+    "explanationVi": "Từ đúng là “red” nghĩa là “màu đỏ”."
+  },
+  {
+    "id": "s-146",
+    "kind": "spell-fill",
+    "topic": "colours",
+    "difficulty": 3,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “màu cam”.",
+    "answerEn": "orange",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “orange” nghĩa là “màu cam”."
+  },
+  {
+    "id": "s-147",
+    "kind": "spell-fill",
+    "topic": "colours",
+    "difficulty": 3,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “màu hồng”.",
+    "answerEn": "pink",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “pink” nghĩa là “màu hồng”."
+  },
+  {
+    "id": "u-148",
+    "kind": "unscramble",
+    "topic": "colours",
+    "difficulty": 1,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “màu xanh lá”.",
+    "answerEn": "green",
+    "explanationVi": "Từ đúng là “green” nghĩa là “màu xanh lá”."
+  },
+  {
+    "id": "u-149",
+    "kind": "unscramble",
+    "topic": "colours",
+    "difficulty": 1,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “màu vàng”.",
+    "answerEn": "yellow",
+    "explanationVi": "Từ đúng là “yellow” nghĩa là “màu vàng”."
+  },
+  {
+    "id": "u-150",
+    "kind": "unscramble",
+    "topic": "colours",
+    "difficulty": 2,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “màu xanh dương”.",
+    "answerEn": "blue",
+    "explanationVi": "Từ đúng là “blue” nghĩa là “màu xanh dương”."
+  },
+  {
+    "id": "u-151",
+    "kind": "unscramble",
+    "topic": "colours",
+    "difficulty": 2,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “màu đỏ”.",
+    "answerEn": "red",
+    "explanationVi": "Từ đúng là “red” nghĩa là “màu đỏ”."
+  },
+  {
+    "id": "u-152",
+    "kind": "unscramble",
+    "topic": "colours",
+    "difficulty": 3,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “màu cam”.",
+    "answerEn": "orange",
+    "explanationVi": "Từ đúng là “orange” nghĩa là “màu cam”."
+  },
+  {
+    "id": "u-153",
+    "kind": "unscramble",
+    "topic": "colours",
+    "difficulty": 3,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “màu hồng”.",
+    "answerEn": "pink",
+    "explanationVi": "Từ đúng là “pink” nghĩa là “màu hồng”."
+  },
+  {
+    "id": "c-154",
+    "kind": "choice",
+    "topic": "family",
+    "difficulty": 1,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “mẹ”?",
+    "questionEn": "Choose the word for \"mẹ\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "mother"
+      },
+      {
+        "id": "o2",
+        "textEn": "father"
+      },
+      {
+        "id": "o3",
+        "textEn": "sister"
+      },
+      {
+        "id": "o4",
+        "textEn": "brother"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“mẹ” trong tiếng Anh là “mother”."
+  },
+  {
+    "id": "c-155",
+    "kind": "choice",
+    "topic": "family",
+    "difficulty": 1,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “bố”?",
+    "questionEn": "Choose the word for \"bố\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "father"
+      },
+      {
+        "id": "o2",
+        "textEn": "mother"
+      },
+      {
+        "id": "o3",
+        "textEn": "sister"
+      },
+      {
+        "id": "o4",
+        "textEn": "brother"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“bố” trong tiếng Anh là “father”."
+  },
+  {
+    "id": "c-156",
+    "kind": "choice",
+    "topic": "family",
+    "difficulty": 2,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “chị/em gái”?",
+    "questionEn": "Choose the word for \"chị/em gái\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "sister"
+      },
+      {
+        "id": "o2",
+        "textEn": "mother"
+      },
+      {
+        "id": "o3",
+        "textEn": "father"
+      },
+      {
+        "id": "o4",
+        "textEn": "brother"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“chị/em gái” trong tiếng Anh là “sister”."
+  },
+  {
+    "id": "c-157",
+    "kind": "choice",
+    "topic": "family",
+    "difficulty": 2,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “anh/em trai”?",
+    "questionEn": "Choose the word for \"anh/em trai\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "brother"
+      },
+      {
+        "id": "o2",
+        "textEn": "mother"
+      },
+      {
+        "id": "o3",
+        "textEn": "father"
+      },
+      {
+        "id": "o4",
+        "textEn": "sister"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“anh/em trai” trong tiếng Anh là “brother”."
+  },
+  {
+    "id": "c-158",
+    "kind": "choice",
+    "topic": "family",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “em bé”?",
+    "questionEn": "Choose the word for \"em bé\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "baby"
+      },
+      {
+        "id": "o2",
+        "textEn": "mother"
+      },
+      {
+        "id": "o3",
+        "textEn": "father"
+      },
+      {
+        "id": "o4",
+        "textEn": "sister"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“em bé” trong tiếng Anh là “baby”."
+  },
+  {
+    "id": "c-159",
+    "kind": "choice",
+    "topic": "family",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “bà”?",
+    "questionEn": "Choose the word for \"bà\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "grandmother"
+      },
+      {
+        "id": "o2",
+        "textEn": "mother"
+      },
+      {
+        "id": "o3",
+        "textEn": "father"
+      },
+      {
+        "id": "o4",
+        "textEn": "sister"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“bà” trong tiếng Anh là “grandmother”."
+  },
+  {
+    "id": "f-160",
+    "kind": "fill",
+    "topic": "family",
+    "difficulty": 1,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “mẹ”.",
+    "questionEn": "mẹ → ___",
+    "acceptedAnswers": [
+      "mother"
+    ],
+    "explanationVi": "Đáp án: “mother” nghĩa là “mẹ”."
+  },
+  {
+    "id": "f-161",
+    "kind": "fill",
+    "topic": "family",
+    "difficulty": 1,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “bố”.",
+    "questionEn": "bố → ___",
+    "acceptedAnswers": [
+      "father"
+    ],
+    "explanationVi": "Đáp án: “father” nghĩa là “bố”."
+  },
+  {
+    "id": "f-162",
+    "kind": "fill",
+    "topic": "family",
+    "difficulty": 2,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “chị/em gái”.",
+    "questionEn": "chị/em gái → ___",
+    "acceptedAnswers": [
+      "sister"
+    ],
+    "explanationVi": "Đáp án: “sister” nghĩa là “chị/em gái”."
+  },
+  {
+    "id": "f-163",
+    "kind": "fill",
+    "topic": "family",
+    "difficulty": 2,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “anh/em trai”.",
+    "questionEn": "anh/em trai → ___",
+    "acceptedAnswers": [
+      "brother"
+    ],
+    "explanationVi": "Đáp án: “brother” nghĩa là “anh/em trai”."
+  },
+  {
+    "id": "f-164",
+    "kind": "fill",
+    "topic": "family",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “em bé”.",
+    "questionEn": "em bé → ___",
+    "acceptedAnswers": [
+      "baby"
+    ],
+    "explanationVi": "Đáp án: “baby” nghĩa là “em bé”."
+  },
+  {
+    "id": "f-165",
+    "kind": "fill",
+    "topic": "family",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “bà”.",
+    "questionEn": "bà → ___",
+    "acceptedAnswers": [
+      "grandmother"
+    ],
+    "explanationVi": "Đáp án: “grandmother” nghĩa là “bà”."
+  },
+  {
+    "id": "l-166",
+    "kind": "listening-choice",
+    "topic": "family",
+    "difficulty": 1,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "mother",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "mẹ"
+      },
+      {
+        "id": "o2",
+        "textEn": "bố"
+      },
+      {
+        "id": "o3",
+        "textEn": "chị/em gái"
+      },
+      {
+        "id": "o4",
+        "textEn": "anh/em trai"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "mother"
+    },
+    "explanationVi": "Từ “mother” nghĩa là “mẹ”."
+  },
+  {
+    "id": "l-167",
+    "kind": "listening-choice",
+    "topic": "family",
+    "difficulty": 1,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "father",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "bố"
+      },
+      {
+        "id": "o2",
+        "textEn": "mẹ"
+      },
+      {
+        "id": "o3",
+        "textEn": "chị/em gái"
+      },
+      {
+        "id": "o4",
+        "textEn": "anh/em trai"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "father"
+    },
+    "explanationVi": "Từ “father” nghĩa là “bố”."
+  },
+  {
+    "id": "l-168",
+    "kind": "listening-choice",
+    "topic": "family",
+    "difficulty": 2,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "sister",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "chị/em gái"
+      },
+      {
+        "id": "o2",
+        "textEn": "mẹ"
+      },
+      {
+        "id": "o3",
+        "textEn": "bố"
+      },
+      {
+        "id": "o4",
+        "textEn": "anh/em trai"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "sister"
+    },
+    "explanationVi": "Từ “sister” nghĩa là “chị/em gái”."
+  },
+  {
+    "id": "l-169",
+    "kind": "listening-choice",
+    "topic": "family",
+    "difficulty": 2,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "brother",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "anh/em trai"
+      },
+      {
+        "id": "o2",
+        "textEn": "mẹ"
+      },
+      {
+        "id": "o3",
+        "textEn": "bố"
+      },
+      {
+        "id": "o4",
+        "textEn": "chị/em gái"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "brother"
+    },
+    "explanationVi": "Từ “brother” nghĩa là “anh/em trai”."
+  },
+  {
+    "id": "l-170",
+    "kind": "listening-choice",
+    "topic": "family",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "baby",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "em bé"
+      },
+      {
+        "id": "o2",
+        "textEn": "mẹ"
+      },
+      {
+        "id": "o3",
+        "textEn": "bố"
+      },
+      {
+        "id": "o4",
+        "textEn": "chị/em gái"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "baby"
+    },
+    "explanationVi": "Từ “baby” nghĩa là “em bé”."
+  },
+  {
+    "id": "l-171",
+    "kind": "listening-choice",
+    "topic": "family",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "grandmother",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "bà"
+      },
+      {
+        "id": "o2",
+        "textEn": "mẹ"
+      },
+      {
+        "id": "o3",
+        "textEn": "bố"
+      },
+      {
+        "id": "o4",
+        "textEn": "chị/em gái"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "grandmother"
+    },
+    "explanationVi": "Từ “grandmother” nghĩa là “bà”."
+  },
+  {
+    "id": "m-172",
+    "kind": "matching",
+    "topic": "family",
+    "difficulty": 1,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "mother",
+        "rightVi": "mẹ"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "father",
+        "rightVi": "bố"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "sister",
+        "rightVi": "chị/em gái"
+      }
+    ],
+    "explanationVi": "mother = mẹ; father = bố; sister = chị/em gái."
+  },
+  {
+    "id": "m-173",
+    "kind": "matching",
+    "topic": "family",
+    "difficulty": 1,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "father",
+        "rightVi": "bố"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "sister",
+        "rightVi": "chị/em gái"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "brother",
+        "rightVi": "anh/em trai"
+      }
+    ],
+    "explanationVi": "father = bố; sister = chị/em gái; brother = anh/em trai."
+  },
+  {
+    "id": "m-174",
+    "kind": "matching",
+    "topic": "family",
+    "difficulty": 2,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "sister",
+        "rightVi": "chị/em gái"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "brother",
+        "rightVi": "anh/em trai"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "baby",
+        "rightVi": "em bé"
+      }
+    ],
+    "explanationVi": "sister = chị/em gái; brother = anh/em trai; baby = em bé."
+  },
+  {
+    "id": "m-175",
+    "kind": "matching",
+    "topic": "family",
+    "difficulty": 2,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "brother",
+        "rightVi": "anh/em trai"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "baby",
+        "rightVi": "em bé"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "grandmother",
+        "rightVi": "bà"
+      }
+    ],
+    "explanationVi": "brother = anh/em trai; baby = em bé; grandmother = bà."
+  },
+  {
+    "id": "s-176",
+    "kind": "spell-fill",
+    "topic": "family",
+    "difficulty": 1,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “mẹ”.",
+    "answerEn": "mother",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “mother” nghĩa là “mẹ”."
+  },
+  {
+    "id": "s-177",
+    "kind": "spell-fill",
+    "topic": "family",
+    "difficulty": 1,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “bố”.",
+    "answerEn": "father",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “father” nghĩa là “bố”."
+  },
+  {
+    "id": "s-178",
+    "kind": "spell-fill",
+    "topic": "family",
+    "difficulty": 2,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “chị/em gái”.",
+    "answerEn": "sister",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “sister” nghĩa là “chị/em gái”."
+  },
+  {
+    "id": "s-179",
+    "kind": "spell-fill",
+    "topic": "family",
+    "difficulty": 2,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “anh/em trai”.",
+    "answerEn": "brother",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “brother” nghĩa là “anh/em trai”."
+  },
+  {
+    "id": "s-180",
+    "kind": "spell-fill",
+    "topic": "family",
+    "difficulty": 3,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “em bé”.",
+    "answerEn": "baby",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “baby” nghĩa là “em bé”."
+  },
+  {
+    "id": "s-181",
+    "kind": "spell-fill",
+    "topic": "family",
+    "difficulty": 3,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “bà”.",
+    "answerEn": "grandmother",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “grandmother” nghĩa là “bà”."
+  },
+  {
+    "id": "u-182",
+    "kind": "unscramble",
+    "topic": "family",
+    "difficulty": 1,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “mẹ”.",
+    "answerEn": "mother",
+    "explanationVi": "Từ đúng là “mother” nghĩa là “mẹ”."
+  },
+  {
+    "id": "u-183",
+    "kind": "unscramble",
+    "topic": "family",
+    "difficulty": 1,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “bố”.",
+    "answerEn": "father",
+    "explanationVi": "Từ đúng là “father” nghĩa là “bố”."
+  },
+  {
+    "id": "u-184",
+    "kind": "unscramble",
+    "topic": "family",
+    "difficulty": 2,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “chị/em gái”.",
+    "answerEn": "sister",
+    "explanationVi": "Từ đúng là “sister” nghĩa là “chị/em gái”."
+  },
+  {
+    "id": "u-185",
+    "kind": "unscramble",
+    "topic": "family",
+    "difficulty": 2,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “anh/em trai”.",
+    "answerEn": "brother",
+    "explanationVi": "Từ đúng là “brother” nghĩa là “anh/em trai”."
+  },
+  {
+    "id": "u-186",
+    "kind": "unscramble",
+    "topic": "family",
+    "difficulty": 3,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “em bé”.",
+    "answerEn": "baby",
+    "explanationVi": "Từ đúng là “baby” nghĩa là “em bé”."
+  },
+  {
+    "id": "u-187",
+    "kind": "unscramble",
+    "topic": "family",
+    "difficulty": 3,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “bà”.",
+    "answerEn": "grandmother",
+    "explanationVi": "Từ đúng là “grandmother” nghĩa là “bà”."
+  },
+  {
+    "id": "c-188",
+    "kind": "choice",
+    "topic": "alphabet",
+    "difficulty": 1,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “chữ A”?",
+    "questionEn": "Choose the word for \"chữ A\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "A"
+      },
+      {
+        "id": "o2",
+        "textEn": "B"
+      },
+      {
+        "id": "o3",
+        "textEn": "C"
+      },
+      {
+        "id": "o4",
+        "textEn": "D"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“chữ A” trong tiếng Anh là “A”."
+  },
+  {
+    "id": "c-189",
+    "kind": "choice",
+    "topic": "alphabet",
+    "difficulty": 1,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “chữ B”?",
+    "questionEn": "Choose the word for \"chữ B\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "B"
+      },
+      {
+        "id": "o2",
+        "textEn": "A"
+      },
+      {
+        "id": "o3",
+        "textEn": "C"
+      },
+      {
+        "id": "o4",
+        "textEn": "D"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“chữ B” trong tiếng Anh là “B”."
+  },
+  {
+    "id": "c-190",
+    "kind": "choice",
+    "topic": "alphabet",
+    "difficulty": 2,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “chữ C”?",
+    "questionEn": "Choose the word for \"chữ C\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "C"
+      },
+      {
+        "id": "o2",
+        "textEn": "A"
+      },
+      {
+        "id": "o3",
+        "textEn": "B"
+      },
+      {
+        "id": "o4",
+        "textEn": "D"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“chữ C” trong tiếng Anh là “C”."
+  },
+  {
+    "id": "c-191",
+    "kind": "choice",
+    "topic": "alphabet",
+    "difficulty": 2,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “chữ D”?",
+    "questionEn": "Choose the word for \"chữ D\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "D"
+      },
+      {
+        "id": "o2",
+        "textEn": "A"
+      },
+      {
+        "id": "o3",
+        "textEn": "B"
+      },
+      {
+        "id": "o4",
+        "textEn": "C"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“chữ D” trong tiếng Anh là “D”."
+  },
+  {
+    "id": "c-192",
+    "kind": "choice",
+    "topic": "alphabet",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “chữ E”?",
+    "questionEn": "Choose the word for \"chữ E\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "E"
+      },
+      {
+        "id": "o2",
+        "textEn": "A"
+      },
+      {
+        "id": "o3",
+        "textEn": "B"
+      },
+      {
+        "id": "o4",
+        "textEn": "C"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“chữ E” trong tiếng Anh là “E”."
+  },
+  {
+    "id": "c-193",
+    "kind": "choice",
+    "topic": "alphabet",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “chữ F”?",
+    "questionEn": "Choose the word for \"chữ F\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "F"
+      },
+      {
+        "id": "o2",
+        "textEn": "A"
+      },
+      {
+        "id": "o3",
+        "textEn": "B"
+      },
+      {
+        "id": "o4",
+        "textEn": "C"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“chữ F” trong tiếng Anh là “F”."
+  },
+  {
+    "id": "c-194",
+    "kind": "choice",
+    "topic": "alphabet",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “chữ G”?",
+    "questionEn": "Choose the word for \"chữ G\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "G"
+      },
+      {
+        "id": "o2",
+        "textEn": "A"
+      },
+      {
+        "id": "o3",
+        "textEn": "B"
+      },
+      {
+        "id": "o4",
+        "textEn": "C"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“chữ G” trong tiếng Anh là “G”."
+  },
+  {
+    "id": "f-195",
+    "kind": "fill",
+    "topic": "alphabet",
+    "difficulty": 1,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “chữ A”.",
+    "questionEn": "chữ A → ___",
+    "acceptedAnswers": [
+      "A"
+    ],
+    "explanationVi": "Đáp án: “A” nghĩa là “chữ A”."
+  },
+  {
+    "id": "f-196",
+    "kind": "fill",
+    "topic": "alphabet",
+    "difficulty": 1,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “chữ B”.",
+    "questionEn": "chữ B → ___",
+    "acceptedAnswers": [
+      "B"
+    ],
+    "explanationVi": "Đáp án: “B” nghĩa là “chữ B”."
+  },
+  {
+    "id": "f-197",
+    "kind": "fill",
+    "topic": "alphabet",
+    "difficulty": 2,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “chữ C”.",
+    "questionEn": "chữ C → ___",
+    "acceptedAnswers": [
+      "C"
+    ],
+    "explanationVi": "Đáp án: “C” nghĩa là “chữ C”."
+  },
+  {
+    "id": "f-198",
+    "kind": "fill",
+    "topic": "alphabet",
+    "difficulty": 2,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “chữ D”.",
+    "questionEn": "chữ D → ___",
+    "acceptedAnswers": [
+      "D"
+    ],
+    "explanationVi": "Đáp án: “D” nghĩa là “chữ D”."
+  },
+  {
+    "id": "f-199",
+    "kind": "fill",
+    "topic": "alphabet",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “chữ E”.",
+    "questionEn": "chữ E → ___",
+    "acceptedAnswers": [
+      "E"
+    ],
+    "explanationVi": "Đáp án: “E” nghĩa là “chữ E”."
+  },
+  {
+    "id": "f-200",
+    "kind": "fill",
+    "topic": "alphabet",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “chữ F”.",
+    "questionEn": "chữ F → ___",
+    "acceptedAnswers": [
+      "F"
+    ],
+    "explanationVi": "Đáp án: “F” nghĩa là “chữ F”."
+  },
+  {
+    "id": "f-201",
+    "kind": "fill",
+    "topic": "alphabet",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “chữ G”.",
+    "questionEn": "chữ G → ___",
+    "acceptedAnswers": [
+      "G"
+    ],
+    "explanationVi": "Đáp án: “G” nghĩa là “chữ G”."
+  },
+  {
+    "id": "l-202",
+    "kind": "listening-choice",
+    "topic": "alphabet",
+    "difficulty": 1,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "A",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "chữ A"
+      },
+      {
+        "id": "o2",
+        "textEn": "chữ B"
+      },
+      {
+        "id": "o3",
+        "textEn": "chữ C"
+      },
+      {
+        "id": "o4",
+        "textEn": "chữ D"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "A"
+    },
+    "explanationVi": "Từ “A” nghĩa là “chữ A”."
+  },
+  {
+    "id": "l-203",
+    "kind": "listening-choice",
+    "topic": "alphabet",
+    "difficulty": 1,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "B",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "chữ B"
+      },
+      {
+        "id": "o2",
+        "textEn": "chữ A"
+      },
+      {
+        "id": "o3",
+        "textEn": "chữ C"
+      },
+      {
+        "id": "o4",
+        "textEn": "chữ D"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "B"
+    },
+    "explanationVi": "Từ “B” nghĩa là “chữ B”."
+  },
+  {
+    "id": "l-204",
+    "kind": "listening-choice",
+    "topic": "alphabet",
+    "difficulty": 2,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "C",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "chữ C"
+      },
+      {
+        "id": "o2",
+        "textEn": "chữ A"
+      },
+      {
+        "id": "o3",
+        "textEn": "chữ B"
+      },
+      {
+        "id": "o4",
+        "textEn": "chữ D"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "C"
+    },
+    "explanationVi": "Từ “C” nghĩa là “chữ C”."
+  },
+  {
+    "id": "l-205",
+    "kind": "listening-choice",
+    "topic": "alphabet",
+    "difficulty": 2,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "D",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "chữ D"
+      },
+      {
+        "id": "o2",
+        "textEn": "chữ A"
+      },
+      {
+        "id": "o3",
+        "textEn": "chữ B"
+      },
+      {
+        "id": "o4",
+        "textEn": "chữ C"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "D"
+    },
+    "explanationVi": "Từ “D” nghĩa là “chữ D”."
+  },
+  {
+    "id": "l-206",
+    "kind": "listening-choice",
+    "topic": "alphabet",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "E",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "chữ E"
+      },
+      {
+        "id": "o2",
+        "textEn": "chữ A"
+      },
+      {
+        "id": "o3",
+        "textEn": "chữ B"
+      },
+      {
+        "id": "o4",
+        "textEn": "chữ C"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "E"
+    },
+    "explanationVi": "Từ “E” nghĩa là “chữ E”."
+  },
+  {
+    "id": "l-207",
+    "kind": "listening-choice",
+    "topic": "alphabet",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "F",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "chữ F"
+      },
+      {
+        "id": "o2",
+        "textEn": "chữ A"
+      },
+      {
+        "id": "o3",
+        "textEn": "chữ B"
+      },
+      {
+        "id": "o4",
+        "textEn": "chữ C"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "F"
+    },
+    "explanationVi": "Từ “F” nghĩa là “chữ F”."
+  },
+  {
+    "id": "l-208",
+    "kind": "listening-choice",
+    "topic": "alphabet",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "G",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "chữ G"
+      },
+      {
+        "id": "o2",
+        "textEn": "chữ A"
+      },
+      {
+        "id": "o3",
+        "textEn": "chữ B"
+      },
+      {
+        "id": "o4",
+        "textEn": "chữ C"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "G"
+    },
+    "explanationVi": "Từ “G” nghĩa là “chữ G”."
+  },
+  {
+    "id": "m-209",
+    "kind": "matching",
+    "topic": "alphabet",
+    "difficulty": 1,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "A",
+        "rightVi": "chữ A"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "B",
+        "rightVi": "chữ B"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "C",
+        "rightVi": "chữ C"
+      }
+    ],
+    "explanationVi": "A = chữ A; B = chữ B; C = chữ C."
+  },
+  {
+    "id": "m-210",
+    "kind": "matching",
+    "topic": "alphabet",
+    "difficulty": 1,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "B",
+        "rightVi": "chữ B"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "C",
+        "rightVi": "chữ C"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "D",
+        "rightVi": "chữ D"
+      }
+    ],
+    "explanationVi": "B = chữ B; C = chữ C; D = chữ D."
+  },
+  {
+    "id": "m-211",
+    "kind": "matching",
+    "topic": "alphabet",
+    "difficulty": 2,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "C",
+        "rightVi": "chữ C"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "D",
+        "rightVi": "chữ D"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "E",
+        "rightVi": "chữ E"
+      }
+    ],
+    "explanationVi": "C = chữ C; D = chữ D; E = chữ E."
+  },
+  {
+    "id": "m-212",
+    "kind": "matching",
+    "topic": "alphabet",
+    "difficulty": 2,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "D",
+        "rightVi": "chữ D"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "E",
+        "rightVi": "chữ E"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "F",
+        "rightVi": "chữ F"
+      }
+    ],
+    "explanationVi": "D = chữ D; E = chữ E; F = chữ F."
+  },
+  {
+    "id": "m-213",
+    "kind": "matching",
+    "topic": "alphabet",
+    "difficulty": 3,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "E",
+        "rightVi": "chữ E"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "F",
+        "rightVi": "chữ F"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "G",
+        "rightVi": "chữ G"
+      }
+    ],
+    "explanationVi": "E = chữ E; F = chữ F; G = chữ G."
+  },
+  {
+    "id": "c-214",
+    "kind": "choice",
+    "topic": "numbers",
+    "difficulty": 1,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “số 1”?",
+    "questionEn": "Choose the word for \"số 1\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "one"
+      },
+      {
+        "id": "o2",
+        "textEn": "two"
+      },
+      {
+        "id": "o3",
+        "textEn": "three"
+      },
+      {
+        "id": "o4",
+        "textEn": "four"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“số 1” trong tiếng Anh là “one”."
+  },
+  {
+    "id": "c-215",
+    "kind": "choice",
+    "topic": "numbers",
+    "difficulty": 1,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “số 2”?",
+    "questionEn": "Choose the word for \"số 2\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "two"
+      },
+      {
+        "id": "o2",
+        "textEn": "one"
+      },
+      {
+        "id": "o3",
+        "textEn": "three"
+      },
+      {
+        "id": "o4",
+        "textEn": "four"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“số 2” trong tiếng Anh là “two”."
+  },
+  {
+    "id": "c-216",
+    "kind": "choice",
+    "topic": "numbers",
+    "difficulty": 2,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “số 3”?",
+    "questionEn": "Choose the word for \"số 3\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "three"
+      },
+      {
+        "id": "o2",
+        "textEn": "one"
+      },
+      {
+        "id": "o3",
+        "textEn": "two"
+      },
+      {
+        "id": "o4",
+        "textEn": "four"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“số 3” trong tiếng Anh là “three”."
+  },
+  {
+    "id": "c-217",
+    "kind": "choice",
+    "topic": "numbers",
+    "difficulty": 2,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “số 4”?",
+    "questionEn": "Choose the word for \"số 4\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "four"
+      },
+      {
+        "id": "o2",
+        "textEn": "one"
+      },
+      {
+        "id": "o3",
+        "textEn": "two"
+      },
+      {
+        "id": "o4",
+        "textEn": "three"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“số 4” trong tiếng Anh là “four”."
+  },
+  {
+    "id": "c-218",
+    "kind": "choice",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “số 5”?",
+    "questionEn": "Choose the word for \"số 5\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "five"
+      },
+      {
+        "id": "o2",
+        "textEn": "one"
+      },
+      {
+        "id": "o3",
+        "textEn": "two"
+      },
+      {
+        "id": "o4",
+        "textEn": "three"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“số 5” trong tiếng Anh là “five”."
+  },
+  {
+    "id": "c-219",
+    "kind": "choice",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “số 10”?",
+    "questionEn": "Choose the word for \"số 10\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "ten"
+      },
+      {
+        "id": "o2",
+        "textEn": "one"
+      },
+      {
+        "id": "o3",
+        "textEn": "two"
+      },
+      {
+        "id": "o4",
+        "textEn": "three"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“số 10” trong tiếng Anh là “ten”."
+  },
+  {
+    "id": "c-220",
+    "kind": "choice",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Từ tiếng Anh nào có nghĩa là “số 20”?",
+    "questionEn": "Choose the word for \"số 20\".",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "twenty"
+      },
+      {
+        "id": "o2",
+        "textEn": "one"
+      },
+      {
+        "id": "o3",
+        "textEn": "two"
+      },
+      {
+        "id": "o4",
+        "textEn": "three"
+      }
+    ],
+    "correctOptionId": "o1",
+    "explanationVi": "“số 20” trong tiếng Anh là “twenty”."
+  },
+  {
+    "id": "f-221",
+    "kind": "fill",
+    "topic": "numbers",
+    "difficulty": 1,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “số 1”.",
+    "questionEn": "số 1 → ___",
+    "acceptedAnswers": [
+      "one"
+    ],
+    "explanationVi": "Đáp án: “one” nghĩa là “số 1”."
+  },
+  {
+    "id": "f-222",
+    "kind": "fill",
+    "topic": "numbers",
+    "difficulty": 1,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “số 2”.",
+    "questionEn": "số 2 → ___",
+    "acceptedAnswers": [
+      "two"
+    ],
+    "explanationVi": "Đáp án: “two” nghĩa là “số 2”."
+  },
+  {
+    "id": "f-223",
+    "kind": "fill",
+    "topic": "numbers",
+    "difficulty": 2,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “số 3”.",
+    "questionEn": "số 3 → ___",
+    "acceptedAnswers": [
+      "three"
+    ],
+    "explanationVi": "Đáp án: “three” nghĩa là “số 3”."
+  },
+  {
+    "id": "f-224",
+    "kind": "fill",
+    "topic": "numbers",
+    "difficulty": 2,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “số 4”.",
+    "questionEn": "số 4 → ___",
+    "acceptedAnswers": [
+      "four"
+    ],
+    "explanationVi": "Đáp án: “four” nghĩa là “số 4”."
+  },
+  {
+    "id": "f-225",
+    "kind": "fill",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “số 5”.",
+    "questionEn": "số 5 → ___",
+    "acceptedAnswers": [
+      "five"
+    ],
+    "explanationVi": "Đáp án: “five” nghĩa là “số 5”."
+  },
+  {
+    "id": "f-226",
+    "kind": "fill",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “số 10”.",
+    "questionEn": "số 10 → ___",
+    "acceptedAnswers": [
+      "ten"
+    ],
+    "explanationVi": "Đáp án: “ten” nghĩa là “số 10”."
+  },
+  {
+    "id": "f-227",
+    "kind": "fill",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Điền từ tiếng Anh nghĩa là “số 20”.",
+    "questionEn": "số 20 → ___",
+    "acceptedAnswers": [
+      "twenty"
+    ],
+    "explanationVi": "Đáp án: “twenty” nghĩa là “số 20”."
+  },
+  {
+    "id": "l-228",
+    "kind": "listening-choice",
+    "topic": "numbers",
+    "difficulty": 1,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "one",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "số 1"
+      },
+      {
+        "id": "o2",
+        "textEn": "số 2"
+      },
+      {
+        "id": "o3",
+        "textEn": "số 3"
+      },
+      {
+        "id": "o4",
+        "textEn": "số 4"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "one"
+    },
+    "explanationVi": "Từ “one” nghĩa là “số 1”."
+  },
+  {
+    "id": "l-229",
+    "kind": "listening-choice",
+    "topic": "numbers",
+    "difficulty": 1,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "two",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "số 2"
+      },
+      {
+        "id": "o2",
+        "textEn": "số 1"
+      },
+      {
+        "id": "o3",
+        "textEn": "số 3"
+      },
+      {
+        "id": "o4",
+        "textEn": "số 4"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "two"
+    },
+    "explanationVi": "Từ “two” nghĩa là “số 2”."
+  },
+  {
+    "id": "l-230",
+    "kind": "listening-choice",
+    "topic": "numbers",
+    "difficulty": 2,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "three",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "số 3"
+      },
+      {
+        "id": "o2",
+        "textEn": "số 1"
+      },
+      {
+        "id": "o3",
+        "textEn": "số 2"
+      },
+      {
+        "id": "o4",
+        "textEn": "số 4"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "three"
+    },
+    "explanationVi": "Từ “three” nghĩa là “số 3”."
+  },
+  {
+    "id": "l-231",
+    "kind": "listening-choice",
+    "topic": "numbers",
+    "difficulty": 2,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "four",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "số 4"
+      },
+      {
+        "id": "o2",
+        "textEn": "số 1"
+      },
+      {
+        "id": "o3",
+        "textEn": "số 2"
+      },
+      {
+        "id": "o4",
+        "textEn": "số 3"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "four"
+    },
+    "explanationVi": "Từ “four” nghĩa là “số 4”."
+  },
+  {
+    "id": "l-232",
+    "kind": "listening-choice",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "five",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "số 5"
+      },
+      {
+        "id": "o2",
+        "textEn": "số 1"
+      },
+      {
+        "id": "o3",
+        "textEn": "số 2"
+      },
+      {
+        "id": "o4",
+        "textEn": "số 3"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "five"
+    },
+    "explanationVi": "Từ “five” nghĩa là “số 5”."
+  },
+  {
+    "id": "l-233",
+    "kind": "listening-choice",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "ten",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "số 10"
+      },
+      {
+        "id": "o2",
+        "textEn": "số 1"
+      },
+      {
+        "id": "o3",
+        "textEn": "số 2"
+      },
+      {
+        "id": "o4",
+        "textEn": "số 3"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "ten"
+    },
+    "explanationVi": "Từ “ten” nghĩa là “số 10”."
+  },
+  {
+    "id": "l-234",
+    "kind": "listening-choice",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
+    "speechTextEn": "twenty",
+    "options": [
+      {
+        "id": "o1",
+        "textEn": "số 20"
+      },
+      {
+        "id": "o2",
+        "textEn": "số 1"
+      },
+      {
+        "id": "o3",
+        "textEn": "số 2"
+      },
+      {
+        "id": "o4",
+        "textEn": "số 3"
+      }
+    ],
+    "correctOptionId": "o1",
+    "readingFallback": {
+      "promptVi": "Đọc từ tiếng Anh dưới đây rồi chọn nghĩa đúng (bài đọc thay thế).",
+      "questionEn": "twenty"
+    },
+    "explanationVi": "Từ “twenty” nghĩa là “số 20”."
+  },
+  {
+    "id": "m-235",
+    "kind": "matching",
+    "topic": "numbers",
+    "difficulty": 1,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "one",
+        "rightVi": "số 1"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "two",
+        "rightVi": "số 2"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "three",
+        "rightVi": "số 3"
+      }
+    ],
+    "explanationVi": "one = số 1; two = số 2; three = số 3."
+  },
+  {
+    "id": "m-236",
+    "kind": "matching",
+    "topic": "numbers",
+    "difficulty": 1,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "two",
+        "rightVi": "số 2"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "three",
+        "rightVi": "số 3"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "four",
+        "rightVi": "số 4"
+      }
+    ],
+    "explanationVi": "two = số 2; three = số 3; four = số 4."
+  },
+  {
+    "id": "m-237",
+    "kind": "matching",
+    "topic": "numbers",
+    "difficulty": 2,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "three",
+        "rightVi": "số 3"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "four",
+        "rightVi": "số 4"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "five",
+        "rightVi": "số 5"
+      }
+    ],
+    "explanationVi": "three = số 3; four = số 4; five = số 5."
+  },
+  {
+    "id": "m-238",
+    "kind": "matching",
+    "topic": "numbers",
+    "difficulty": 2,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "four",
+        "rightVi": "số 4"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "five",
+        "rightVi": "số 5"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "ten",
+        "rightVi": "số 10"
+      }
+    ],
+    "explanationVi": "four = số 4; five = số 5; ten = số 10."
+  },
+  {
+    "id": "m-239",
+    "kind": "matching",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
+    "pairs": [
+      {
+        "id": "pair1",
+        "leftEn": "five",
+        "rightVi": "số 5"
+      },
+      {
+        "id": "pair2",
+        "leftEn": "ten",
+        "rightVi": "số 10"
+      },
+      {
+        "id": "pair3",
+        "leftEn": "twenty",
+        "rightVi": "số 20"
+      }
+    ],
+    "explanationVi": "five = số 5; ten = số 10; twenty = số 20."
+  },
+  {
+    "id": "s-240",
+    "kind": "spell-fill",
+    "topic": "numbers",
+    "difficulty": 1,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “số 1”.",
+    "answerEn": "one",
+    "blankIndexes": [
+      1
+    ],
+    "explanationVi": "Từ đúng là “one” nghĩa là “số 1”."
+  },
+  {
+    "id": "s-241",
+    "kind": "spell-fill",
+    "topic": "numbers",
+    "difficulty": 1,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “số 2”.",
+    "answerEn": "two",
+    "blankIndexes": [
+      1
+    ],
+    "explanationVi": "Từ đúng là “two” nghĩa là “số 2”."
+  },
+  {
+    "id": "s-242",
+    "kind": "spell-fill",
+    "topic": "numbers",
+    "difficulty": 2,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “số 3”.",
+    "answerEn": "three",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “three” nghĩa là “số 3”."
+  },
+  {
+    "id": "s-243",
+    "kind": "spell-fill",
+    "topic": "numbers",
+    "difficulty": 2,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “số 4”.",
+    "answerEn": "four",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “four” nghĩa là “số 4”."
+  },
+  {
+    "id": "s-244",
+    "kind": "spell-fill",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “số 5”.",
+    "answerEn": "five",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “five” nghĩa là “số 5”."
+  },
+  {
+    "id": "s-245",
+    "kind": "spell-fill",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “số 10”.",
+    "answerEn": "ten",
+    "blankIndexes": [
+      1
+    ],
+    "explanationVi": "Từ đúng là “ten” nghĩa là “số 10”."
+  },
+  {
+    "id": "s-246",
+    "kind": "spell-fill",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “số 20”.",
+    "answerEn": "twenty",
+    "blankIndexes": [
+      1,
+      3
+    ],
+    "explanationVi": "Từ đúng là “twenty” nghĩa là “số 20”."
+  },
+  {
+    "id": "u-247",
+    "kind": "unscramble",
+    "topic": "numbers",
+    "difficulty": 1,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “số 1”.",
+    "answerEn": "one",
+    "explanationVi": "Từ đúng là “one” nghĩa là “số 1”."
+  },
+  {
+    "id": "u-248",
+    "kind": "unscramble",
+    "topic": "numbers",
+    "difficulty": 1,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “số 2”.",
+    "answerEn": "two",
+    "explanationVi": "Từ đúng là “two” nghĩa là “số 2”."
+  },
+  {
+    "id": "u-249",
+    "kind": "unscramble",
+    "topic": "numbers",
+    "difficulty": 2,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “số 3”.",
+    "answerEn": "three",
+    "explanationVi": "Từ đúng là “three” nghĩa là “số 3”."
+  },
+  {
+    "id": "u-250",
+    "kind": "unscramble",
+    "topic": "numbers",
+    "difficulty": 2,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “số 4”.",
+    "answerEn": "four",
+    "explanationVi": "Từ đúng là “four” nghĩa là “số 4”."
+  },
+  {
+    "id": "u-251",
+    "kind": "unscramble",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “số 5”.",
+    "answerEn": "five",
+    "explanationVi": "Từ đúng là “five” nghĩa là “số 5”."
+  },
+  {
+    "id": "u-252",
+    "kind": "unscramble",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “số 10”.",
+    "answerEn": "ten",
+    "explanationVi": "Từ đúng là “ten” nghĩa là “số 10”."
+  },
+  {
+    "id": "u-253",
+    "kind": "unscramble",
+    "topic": "numbers",
+    "difficulty": 3,
+    "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “số 20”.",
+    "answerEn": "twenty",
+    "explanationVi": "Từ đúng là “twenty” nghĩa là “số 20”."
+  }
+]
