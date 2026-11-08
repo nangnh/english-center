@@ -13,6 +13,10 @@ WHEN trẻ làm dạng sắp xếp chữ cái (unscramble), hệ thống SHALL h
 WHEN tải ngân hàng, hệ thống SHALL kiểm tra ID duy nhất, đáp án hợp lệ, đủ dữ liệu tranh/audio, không thiếu tham chiếu vòng và không lặp ID trong một vòng.
 Hệ thống SHALL có đúng 8 vòng ×20 câu, 4 chặng ×5 câu; mỗi vòng có đủ 7 dạng, tăng nhẹ độ khó. Một câu nối gồm 3 cặp và tính là một câu.
 WHEN trẻ trả lời, hệ thống SHALL phản hồi nhẹ nhàng và giải thích tiếng Việt ngắn, không dùng thông điệp làm trẻ xấu hổ.
+WHEN trẻ trả lời đúng và âm thanh/hiệu ứng đang bật, hệ thống SHALL hiển thị hiệu ứng tung hoa và phát âm thanh chúc mừng vui tươi (cheery).
+WHEN trẻ trả lời sai và âm thanh đang bật, hệ thống SHALL phát âm thanh báo sai nhẹ nhàng kèm lời động viên tiếng Việt, không trách mắng.
+Hệ thống SHALL tạo âm thanh bằng Web Audio API nội bộ (không tải file ngoài, không dịch vụ trả phí) và SHALL cho bật/tắt âm thanh và hiệu ứng, lưu lựa chọn trên thiết bị; hiệu ứng SHALL tôn trọng prefers-reduced-motion.
+WHEN một câu đòi hỏi nhập chữ hiển thị (fill, spell-fill), hệ thống SHALL tự động đưa con trỏ vào ô nhập đầu tiên mà không gây giật bố cục.
 
 ## R3 — Vòng và điểm
 WHEN bắt đầu vòng, hệ thống SHALL khởi tạo 30 phút, 20 câu và 0 điểm.
@@ -30,7 +34,9 @@ WHEN xem bảng thành tích, hệ thống SHALL ghi rõ “Trên thiết bị n
 WHEN phụ huynh xác nhận xóa dữ liệu trong hai bước, hệ thống SHALL xóa dữ liệu riêng ứng dụng và về trạng thái ban đầu.
 
 ## R5 — Nghe và khả năng tiếp cận
-WHEN trẻ bấm Nghe, hệ thống SHALL đọc nội dung tiếng Anh, hủy phát trước đó và cho nghe lại, không autoplay.
+WHEN trẻ bấm Nghe, hệ thống SHALL đọc nội dung tiếng Anh, hủy phát trước đó và cho nghe lại.
+WHEN một câu không phải dạng nghe hiển thị và âm thanh đang bật, hệ thống SHALL tự động đọc từ khóa/từ đích tiếng Anh một lần; nếu trình duyệt chặn phát tự động, hệ thống SHALL không lỗi và vẫn cho phát lại bằng nút Nghe.
+WHILE là câu dạng nghe (listening), hệ thống SHALL KHÔNG tự động phát để tránh lộ đáp án; chỉ phát khi trẻ chủ động bấm Nghe (giữ nguyên R5 về không lộ transcript).
 IF không phát được giọng tiếng Anh, hệ thống SHALL thông báo và cho dùng câu đọc thay thế được soạn sẵn cùng độ khó/điểm, ghi rõ đây không phải bài nghe.
 WHILE chưa chọn chế độ thay thế, hệ thống SHALL không hiển thị transcript là đáp án nghe trên màn hình; screen reader và đáp án sau bài được thiết kế không tiết lộ sớm đáp án.
 

@@ -48,6 +48,35 @@ export async function answerCurrent(page: Page) {
     return;
   }
 
+  // spell-fill? có nhóm "Các chữ cái của từ" với ô input chữ cái.
+  const spellGroup = page.getByRole("group", { name: "Các chữ cái của từ" });
+  if (await spellGroup.isVisible().catch(() => false)) {
+    const inputs = spellGroup.getByRole("textbox");
+    const n = await inputs.count();
+    for (let k = 0; k < n; k += 1) await inputs.nth(k).fill("a");
+    await clickCheck(page);
+    return;
+  }
+
+  // unscramble? có danh sách "Chữ cái để chọn".
+  const tileList = page.getByRole("list", { name: "Chữ cái để chọn" });
+  if (await tileList.isVisible().catch(() => false)) {
+    const tiles = tileList.getByRole("button");
+    const n = await tiles.count();
+    // Chọn lần lượt các ô khả dụng cho tới khi hết.
+    for (let k = 0; k < n; k += 1) {
+      const enabled = tileList.getByRole("button").and(
+        page.locator("button:not([disabled])")
+      );
+      const first = enabled.first();
+      if (await first.isVisible().catch(() => false)) {
+        await first.click();
+      }
+    }
+    await clickCheck(page);
+    return;
+  }
+
   // matching? có hai cột; nối 3 cặp bằng cách bấm trái rồi phải.
   const leftList = page.getByRole("list", { name: "Từ tiếng Anh" });
   if (await leftList.isVisible().catch(() => false)) {

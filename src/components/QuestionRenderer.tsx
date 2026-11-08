@@ -80,6 +80,26 @@ export function QuestionRenderer({
           onUseFallback={onUseFallback}
         />
       );
+    case "spell-fill":
+      return (
+        <SpellFillRenderer
+          question={question}
+          draft={draft}
+          onDraftChange={onDraftChange}
+          locked={locked}
+          correct={correct}
+        />
+      );
+    case "unscramble":
+      return (
+        <UnscrambleRenderer
+          question={question}
+          draft={draft}
+          onDraftChange={onDraftChange}
+          locked={locked}
+          correct={correct}
+        />
+      );
     default: {
       const _exhaustive: never = question;
       void _exhaustive;

@@ -28,6 +28,11 @@ import { Card } from "@/components/ui/Card";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { Timer } from "@/components/Timer";
 import { QuestionRenderer } from "@/components/QuestionRenderer";
+import { Confetti } from "@/components/Confetti";
+import { useSettings } from "@/components/useSettings";
+import { getBrowserSpeechEnv, speak, cancelSpeech } from "@/lib/speech";
+import { autoSpeakText } from "@/lib/keyword";
+import { playCorrectSound, playWrongSound, pickEncouragement } from "@/lib/sound";
 
 interface PlayClientProps {
   param: string;
@@ -36,6 +41,7 @@ interface PlayClientProps {
 export function PlayClient({ param }: PlayClientProps) {
   const router = useRouter();
   const { ready, progress, update } = useProgress();
+  const { soundOn, toggleSound } = useSettings();
   const resolved: ResolvedPlay | null = useMemo(
     () => resolvePlayParam(param),
     [param]
@@ -53,6 +59,9 @@ export function PlayClient({ param }: PlayClientProps) {
   const [draft, setDraft] = useState<Answer | undefined>(undefined);
   const [nowMs, setNowMs] = useState<number>(() => Date.now());
   const persistedRef = useRef(false);
+  const [confetti, setConfetti] = useState(false);
+  const [encouragement, setEncouragement] = useState<string | null>(null);
+  const inputFocusRef = useRef<HTMLDivElement | null>(null);
 
   // Khởi tạo lượt sau khi tiến bộ sẵn sàng (resume nếu còn lượt vòng dở).
   useEffect(() => {
@@ -148,6 +157,43 @@ export function PlayClient({ param }: PlayClientProps) {
     attempt && current && attempt.audioFallbackIds.includes(current.id)
   );
 
+  const currentId = current?.id;
+
+  // Khi câu mới hiển thị (chưa nộp): tự phát từ khóa (trừ listening) và
+  // auto-focus ô nhập nếu có. Reset hiệu ứng/lời động viên.
+  useEffect(() => {
+    if (!current || isSubmitted) return;
+    setConfetti(false);
+    setEncouragement(null);
+
+    // Auto-focus ô nhập đầu tiên (fill/spell-fill) không gây giật bố cục.
+    const node = inputFocusRef.current?.querySelector<HTMLInputElement>(
+      "input[type='text']"
+    );
+    if (node) {
+      try {
+        node.focus({ preventScroll: true });
+      } catch {
+        node.focus();
+      }
+    }
+
+    // Tự phát từ khóa tiếng Anh (trừ listening); trình duyệt có thể chặn.
+    if (soundOn) {
+      const text = autoSpeakText(current);
+      if (text) {
+        const env = getBrowserSpeechEnv();
+        speak(env, text); // nếu bị chặn/không có giọng -> im lặng, không lỗi
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentId]);
+
+  // Hủy phát khi rời trang.
+  useEffect(() => {
+    return () => cancelSpeech(getBrowserSpeechEnv());
+  }, []);
+
   const persistPlaying = useCallback(
     (next: Attempt) => {
       if (next.mode === "round") {
@@ -167,7 +213,19 @@ export function PlayClient({ param }: PlayClientProps) {
     });
     dispatch({ type: "SET", attempt: next });
     persistPlaying(next);
-  }, [attempt, current, draft, persistPlaying]);
+
+    // Phản hồi tương tác sau khi chấm.
+    const result = next.evaluationsById[current.id];
+    if (result?.correct) {
+      setConfetti(true);
+      setEncouragement(null);
+      if (soundOn) playCorrectSound();
+    } else {
+      setConfetti(false);
+      setEncouragement(pickEncouragement(current.id.length + attempt.currentIndex));
+      if (soundOn) playWrongSound();
+    }
+  }, [attempt, current, draft, persistPlaying, soundOn]);
 
   const handleNext = useCallback(() => {
     if (!attempt) return;
@@ -233,11 +291,22 @@ export function PlayClient({ param }: PlayClientProps) {
 
   return (
     <main className="mx-auto max-w-2xl px-4 py-6">
+      <Confetti show={confetti} />
       <div className="mb-4 flex items-center justify-between gap-2">
         <Button variant="ghost" onClick={handleExit} aria-label="Thoát bài">
           ← Thoát
         </Button>
         <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={toggleSound}
+            aria-pressed={soundOn}
+            aria-label={soundOn ? "Tắt âm thanh" : "Bật âm thanh"}
+            title={soundOn ? "Tắt âm thanh" : "Bật âm thanh"}
+            className="min-h-[44px] min-w-[44px] rounded-bubble bg-white px-3 py-1 text-xl"
+          >
+            {soundOn ? "🔊" : "🔇"}
+          </button>
           <span className="rounded-bubble bg-white px-3 py-1 text-base font-bold">
             ⭐ {totalScore(attempt)}
           </span>
@@ -261,15 +330,17 @@ export function PlayClient({ param }: PlayClientProps) {
         <h1 className="mb-3 text-xl font-bold text-garden-leaf">
           {current.promptVi}
         </h1>
-        <QuestionRenderer
-          question={current}
-          draft={draft}
-          onDraftChange={setDraft}
-          locked={isSubmitted}
-          correct={evaluation?.correct}
-          audioFallback={audioFallback}
-          onUseFallback={handleUseFallback}
-        />
+        <div ref={inputFocusRef}>
+          <QuestionRenderer
+            question={current}
+            draft={draft}
+            onDraftChange={setDraft}
+            locked={isSubmitted}
+            correct={evaluation?.correct}
+            audioFallback={audioFallback}
+            onUseFallback={handleUseFallback}
+          />
+        </div>
 
         {isSubmitted && (
           <div
@@ -283,6 +354,11 @@ export function PlayClient({ param }: PlayClientProps) {
             <p className="text-lg font-bold">
               {evaluation?.correct ? "Tuyệt vời! 🌟" : "Cùng xem lại nhé 🌼"}
             </p>
+            {!evaluation?.correct && encouragement && (
+              <p className="mt-1 text-base font-semibold text-garden-leaf">
+                {encouragement}
+              </p>
+            )}
             <p className="mt-1 text-base">{current.explanationVi}</p>
           </div>
         )}

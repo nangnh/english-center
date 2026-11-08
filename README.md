@@ -38,9 +38,9 @@ npm run test:e2e    # End-to-end (Playwright)
 Lần chạy gần nhất (cục bộ, macOS, Node v20.18.1):
 - lint: không lỗi/cảnh báo.
 - typecheck: không lỗi.
-- unit: **83/83** test qua (11 file).
+- unit: **96/96** test qua (13 file).
 - build: compiled successfully, 7 route.
-- e2e: **28/28** test qua trên desktop (Chromium) và mobile 360px (Pixel 5).
+- e2e: **38/38** test qua trên desktop (Chromium) và mobile 360px (Pixel 5).
 
 Lần đầu chạy e2e cần cài trình duyệt Playwright:
 ```bash
@@ -58,8 +58,11 @@ trong thư mục `test-results/` (giữ nguyên định dạng webm). Muốn t�
   ảnh hưởng việc mở khóa vòng.
 - **Vòng luyện**: 8 vòng × 20 câu (4 chặng × 5), mỗi vòng 30 phút. Đạt ≥150/200
   để mở vòng tiếp theo. Vòng 1 mở sẵn.
-- **5 dạng câu**: chọn đáp án, chọn tranh, nối cặp (3 cặp/câu), điền từ, nghe
-  chọn đáp án. Nối cặp dùng click hoặc bàn phím, không bắt buộc kéo thả.
+- **7 dạng câu**: chọn đáp án, chọn tranh, nối cặp (3 cặp/câu), điền từ, nghe
+  chọn đáp án, điền chữ cái còn thiếu (spell-fill), sắp xếp chữ cái
+  (unscramble). Nối cặp và sắp xếp chữ dùng click hoặc bàn phím, không bắt buộc
+  kéo thả. Hai dạng trò chơi chữ là nội dung phổ thông tự sáng tác, không mô
+  phỏng nhận diện IOE.
 - **Tiến bộ**: điểm tốt nhất mỗi vòng, huy hiệu và bảng thành tích — tất cả
   "Trên thiết bị này". Có nút xóa dữ liệu xác nhận hai bước cho phụ huynh.
 
@@ -76,11 +79,19 @@ nên được phụ huynh/giáo viên duyệt trước khi dùng rộng rãi.
   sang chế độ bộ nhớ tạm và báo rõ.
 - Thời gian vòng tính theo mốc deadline tuyệt đối: reload hay chuyển tab không
   đặt lại 30 phút.
-- Nghe qua Web Speech API (`speechSynthesis`), tốc độ chậm (~0.8), chỉ phát sau
-  thao tác người dùng. **TTS phụ thuộc giọng cài sẵn của trình duyệt, không đảm
-  bảo offline hay trên mọi trình duyệt.** Khi không có giọng tiếng Anh, câu nghe
-  cho dùng **bài đọc thay thế** cùng độ khó/điểm (ghi rõ đây không phải bài
-  nghe), không phạt trẻ.
+- Nghe qua Web Speech API (`speechSynthesis`), tốc độ chậm (~0.8). **TTS phụ
+  thuộc giọng cài sẵn của trình duyệt, không đảm bảo offline hay trên mọi trình
+  duyệt.** Khi không có giọng tiếng Anh, câu nghe cho dùng **bài đọc thay thế**
+  cùng độ khó/điểm (ghi rõ đây không phải bài nghe), không phạt trẻ.
+- **Tương tác**: khi câu (không phải dạng nghe) hiển thị, hệ thống tự đọc từ
+  khóa tiếng Anh một lần; trình duyệt có thể chặn phát tự động lần đầu (chính
+  sách autoplay) nên vẫn có nút Nghe để phát lại. Dạng nghe **không bao giờ tự
+  phát** để không lộ đáp án.
+- Trả lời đúng: hiệu ứng **tung hoa** + âm thanh chúc mừng; trả lời sai: âm báo
+  nhẹ + lời động viên tiếng Việt. Âm thanh **tổng hợp bằng Web Audio API** (không
+  tải file ngoài). Có nút **bật/tắt âm thanh** (lưu trên thiết bị); hiệu ứng tôn
+  trọng `prefers-reduced-motion`.
+- Câu nhập chữ (điền từ, điền chữ còn thiếu) **tự động đưa con trỏ vào ô nhập**.
 - Không có bảng xếp hạng công khai hay cơ chế chống gian lận/chỉnh đồng hồ.
 
 ## Cấu trúc mã nguồn
@@ -93,14 +104,15 @@ src/
                   hook useProgress
   lib/            Logic thuần tách UI: validation, engine (reducer/chấm điểm),
                   scoring, storage (versioned + fallback), tabs (khóa đa tab),
-                  speech, session, shuffle, badges
-  data/           questions.json (181 câu), rounds.json (8 vòng), loader
+                  speech, session, shuffle, badges, letters (trò chơi chữ),
+                  sound (Web Audio), keyword (tự phát từ khóa)
+  data/           questions.json (253 câu), rounds.json (8 vòng), loader
   types/          Discriminated unions: Question, Round, Attempt, Progress
 public/illustrations/   23 tranh SVG tự vẽ, có mô tả truy cập (alt)
 scripts/content/        Bộ sinh dữ liệu gốc + nội dung nguồn (source.ts)
 tests/unit/     11 file unit/component (Vitest + Testing Library)
 tests/e2e/      Playwright: smoke, quick, round, timeout, progress,
-                audio fallback, matching bằng bàn phím
+                audio fallback, matching bằng bàn phím, trò chơi chữ cái
 ```
 
 Tái sinh dữ liệu câu hỏi (sau khi sửa `scripts/content/source.ts`):

@@ -13,7 +13,9 @@ Chưa có ứng dụng được tạo. Đây là bộ brief/spec bàn giao cho K
 - [x] 10. Viết/chạy e2e các luồng trong design, kiểm tra a11y cơ bản và mobile; chạy npm run lint, npm run typecheck, npm test, npm run build, npm run test:e2e. Sửa lỗi, ghi output thực và giới hạn chưa kiểm thử.
 - [x] 11. Cập nhật README tiếng Việt (cài/chạy/test, dữ liệu local, audio, không backend), tổng kết file đã làm và cách demo. Chạy dev local nếu người dùng muốn; không deploy hay đăng gì ra ngoài.
 
-- [ ] 12. Mở rộng 2 dạng trò chơi chữ cái tự sáng tác: spell-fill (điền chữ còn thiếu) và unscramble (sắp xếp chữ cái). Cập nhật types/validation/scoring/generator, thêm 2 renderer, bảo đảm mỗi vòng vẫn 20 câu đủ 7 dạng, độ khó tăng nhẹ. Viết/chạy unit + e2e, cập nhật README. Nội dung/giao diện riêng, không mô phỏng IOE (R2/R3).
+- [x] 12. Mở rộng 2 dạng trò chơi chữ cái tự sáng tác: spell-fill (điền chữ còn thiếu) và unscramble (sắp xếp chữ cái). Cập nhật types/validation/scoring/generator, thêm 2 renderer, bảo đảm mỗi vòng vẫn 20 câu đủ 7 dạng, độ khó tăng nhẹ. Viết/chạy unit + e2e, cập nhật README. Nội dung/giao diện riêng, không mô phỏng IOE (R2/R3).
+
+- [x] 13. Tăng tương tác: auto-phát từ khóa (trừ listening), hiệu ứng tung hoa + âm chúc mừng khi đúng, âm báo sai nhẹ + lời động viên khi sai (Web Audio nội bộ, không file ngoài), nút bật/tắt âm thanh lưu thiết bị, tôn trọng reduced-motion, auto-focus ô nhập fill/spell-fill. Viết/chạy unit + e2e, cập nhật README (R2/R5).
 
 ## Prompt khởi động
 “Đọc .kiro/steering và .kiro/specs/ioe-grade2. Dùng /planning để kiểm tra kế hoạch nếu cần, rồi dùng /cook-web-app thực hiện lần lượt tasks.md, bắt đầu task 1. Tự xây MVP English Garden lớp 2 theo requirements và design, giữ nguyên nội dung gốc, không copy IOE. Sau mỗi task chạy test phù hợp và cập nhật checkbox. Không deploy, không dùng API trả phí hoặc credential.”
