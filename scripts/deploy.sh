@@ -17,7 +17,7 @@
 # -----------------------------------------------------------------------------
 set -euo pipefail
 
-PROJECT_NAME="ioe-grade2"
+PROJECT_NAME="english-for-tom"
 OUTPUT_DIR="out"
 BRANCH="${1:-main}"
 

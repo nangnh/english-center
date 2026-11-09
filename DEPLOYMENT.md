@@ -1,4 +1,4 @@
-# Deployment Guide — ioe-grade2 on Cloudflare Pages
+# Deployment Guide — english-for-tom on Cloudflare Pages
 
 This app is a **fully static site** (Next.js `output: "export"`, no server, no API routes,
 all state in `localStorage`). It deploys to **Cloudflare Pages free tier**:
@@ -43,7 +43,7 @@ npx serve out        # or: python3 -m http.server -d out 8000
 
 ## 2. Managing the domain
 
-Default URL is `https://ioe-grade2.pages.dev` (free, automatic HTTPS).
+Default URL is `https://english-for-tom.pages.dev` (free, automatic HTTPS).
 
 ### Custom domain
 1. Pages project → **Custom domains** → **Set up a domain**.
@@ -62,7 +62,7 @@ Apex/root domains (`example.com`) work when the zone is on Cloudflare (CNAME fla
 Every deploy is **immutable** and tied to a **Git commit SHA**:
 - Each commit to `main` = one production deployment.
 - Each PR/branch = an isolated **preview deployment** at a unique
-  `<hash>.ioe-grade2.pages.dev` URL. Safe to share for review, no effect on production.
+  `<hash>.english-for-tom.pages.dev` URL. Safe to share for review, no effect on production.
 
 See history: Pages project → **Deployments** tab. Each row shows the commit,
 author, timestamp, and its permanent preview URL.
@@ -89,7 +89,7 @@ Baseline is handled by the platform and `public/_headers`:
 
 After deploy, verify headers:
 ```bash
-curl -sI https://ioe-grade2.pages.dev | grep -i -E "content-security|x-frame|strict-transport"
+curl -sI https://english-for-tom.pages.dev | grep -i -E "content-security|x-frame|strict-transport"
 ```
 > If you later add external resources (fonts, analytics, CDN), widen the CSP
 > `connect-src`/`script-src` in `public/_headers` to match — otherwise they'll be blocked.
