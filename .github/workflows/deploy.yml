@@ -1,0 +1,56 @@
+name: Deploy to Cloudflare Pages
+
+# Version-controlled deploys: every push to main ships a new immutable version.
+# Each deploy is tied to the commit SHA, so rollback = redeploy an older SHA.
+on:
+  push:
+    branches: [main]
+  # Pull requests get their own preview URL (no effect on production).
+  pull_request:
+    branches: [main]
+  # Allow manual re-deploy of any ref from the Actions tab (used for rollback).
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  deployments: write
+
+concurrency:
+  group: pages-deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Quality gates: a broken build must never reach production.
+      - name: Type check
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Build static export
+        run: npm run build
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy out --project-name=ioe-grade2 --branch=${{ github.ref_name }}

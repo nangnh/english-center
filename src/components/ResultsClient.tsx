@@ -53,9 +53,9 @@ export function ResultsClient({ attemptId }: { attemptId: string }) {
 
   const retryHref =
     attempt.mode === "round"
-      ? `/play/${attempt.roundId}`
+      ? `/play/?round=${attempt.roundId}`
       : attempt.topic
-      ? `/play/quick-${attempt.topic}`
+      ? `/play/?round=quick-${attempt.topic}`
       : "/topics";
 
   return (
@@ -93,7 +93,7 @@ export function ResultsClient({ attemptId }: { attemptId: string }) {
             <Button>Luyện lại</Button>
           </Link>
           {attempt.mode === "round" && passed && nextId && (
-            <Link href={`/play/${nextId}`}>
+            <Link href={`/play/?round=${nextId}`}>
               <Button variant="secondary">Vòng tiếp theo</Button>
             </Link>
           )}

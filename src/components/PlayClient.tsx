@@ -142,7 +142,7 @@ export function PlayClient({ param }: PlayClientProps) {
     } else {
       update(setActiveAttempt(upsertAttempt(progress, attempt), null));
     }
-    router.push(`/results/${attempt.id}`);
+    router.push(`/results/?attempt=${attempt.id}`);
   }, [attempt, progress, update, router]);
 
   const current = attempt

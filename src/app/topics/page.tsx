@@ -33,7 +33,7 @@ export default function TopicsPage() {
           return (
             <li key={topic}>
               <Link
-                href={`/play/quick-${topic}`}
+                href={`/play/?round=quick-${topic}`}
                 className="block rounded-bubble focus-visible:outline-none"
                 aria-label={`Luyện nhanh chủ đề ${TOPIC_LABELS_VI[topic]}, ${count} câu`}
               >

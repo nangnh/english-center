@@ -31,7 +31,7 @@ export default function RoundsPage() {
             <li key={round.id}>
               {unlocked ? (
                 <Link
-                  href={`/play/${round.id}`}
+                  href={`/play/?round=${round.id}`}
                   className="block rounded-bubble focus-visible:outline-none"
                   aria-label={`${round.titleVi}${
                     best ? `, điểm tốt nhất ${best.score}` : ""
