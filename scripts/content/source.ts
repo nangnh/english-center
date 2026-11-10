@@ -33,7 +33,7 @@ export const WORDS: Record<string, WordItem[]> = {
     { en: "bag", vi: "cặp sách", asset: "/illustrations/bag.svg", alt: "Một chiếc cặp sách đỏ" },
     { en: "book", vi: "quyển sách", asset: "/illustrations/book.svg", alt: "Một quyển sách xanh" },
   ],
-  colours: [
+  colors: [
     { en: "green", vi: "màu xanh lá", asset: "/illustrations/colour-green.svg", alt: "Hình tròn màu xanh lá" },
     { en: "yellow", vi: "màu vàng", asset: "/illustrations/colour-yellow.svg", alt: "Hình tròn màu vàng" },
     { en: "blue", vi: "màu xanh dương", asset: "/illustrations/colour-blue.svg", alt: "Hình tròn màu xanh dương" },

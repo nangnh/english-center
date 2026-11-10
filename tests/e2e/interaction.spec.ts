@@ -41,7 +41,7 @@ test("có nút bật/tắt âm thanh và đổi được trạng thái", async (
 
 test("trả lời đúng hiện hiệu ứng tung hoa", async ({ page }) => {
   // Tìm một chủ đề mà câu đầu quick là dạng choice để chọn đúng xác định.
-  const topics = ["animals", "food", "colours", "numbers", "family"];
+  const topics = ["animals", "food", "colors", "numbers", "family"];
   let chosen: { topic: string; q: Q } | null = null;
   for (const t of topics) {
     const q = firstQuickQuestion(t);

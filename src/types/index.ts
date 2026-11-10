@@ -3,7 +3,7 @@
 
 export type Topic =
   | "alphabet"
-  | "colours"
+  | "colors"
   | "animals"
   | "family"
   | "school-things"
@@ -12,7 +12,7 @@ export type Topic =
 
 export const TOPICS: Topic[] = [
   "alphabet",
-  "colours",
+  "colors",
   "animals",
   "family",
   "school-things",
@@ -22,7 +22,7 @@ export const TOPICS: Topic[] = [
 
 export const TOPIC_LABELS_VI: Record<Topic, string> = {
   alphabet: "Bảng chữ cái",
-  colours: "Màu sắc",
+  colors: "Màu sắc",
   animals: "Động vật",
   family: "Gia đình",
   "school-things": "Đồ dùng học tập",

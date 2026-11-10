@@ -11,3 +11,8 @@
 # Hashed Next.js assets are immutable: cache hard.
 /_next/static/*
   Cache-Control: public, max-age=31536000, immutable
+
+# Pregenerated audio: hash-named, an toàn cache dài hạn (>= 7 ngày).
+# Đổi nội dung -> đổi hash -> đổi URL, nên không lo cache cũ.
+/audio/*
+  Cache-Control: public, max-age=604800, immutable

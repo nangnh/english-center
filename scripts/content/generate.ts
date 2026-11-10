@@ -22,7 +22,7 @@ const TOPICS: Topic[] = [
   "animals",
   "food",
   "school-things",
-  "colours",
+  "colors",
   "family",
   "alphabet",
   "numbers",

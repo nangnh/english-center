@@ -1,0 +1,289 @@
+{
+  "version": 1,
+  "byText": {
+    "cat": "/audio/77af778b51abd4a3.mp3",
+    "dog": "/audio/cd6357efdd966de8.mp3",
+    "bird": "/audio/7a5179eecc0fe187.mp3",
+    "fish": "/audio/b474a99a2705e23c.mp3",
+    "duck": "/audio/2d2370db2447ff8c.mp3",
+    "frog": "/audio/74fa5327cc0f4e94.mp3",
+    "rice": "/audio/209f76418ece7c93.mp3",
+    "bread": "/audio/985604c2b6024312.mp3",
+    "banana": "/audio/b493d48364afe44d.mp3",
+    "milk": "/audio/8825e76530f87ff5.mp3",
+    "apple": "/audio/3a7bd3e2360a3d29.mp3",
+    "egg": "/audio/34707c3f40dfa20c.mp3",
+    "pen": "/audio/e21a6b0cb193057e.mp3",
+    "pencil": "/audio/13809668fb436386.mp3",
+    "ruler": "/audio/5972814068a183e2.mp3",
+    "bag": "/audio/c018019b6a8b01ab.mp3",
+    "book": "/audio/92719fe0cf8cd515.mp3",
+    "green": "/audio/ba4788b226aa8dc2.mp3",
+    "yellow": "/audio/c685a2c9bab235cc.mp3",
+    "blue": "/audio/16477688c0e00699.mp3",
+    "red": "/audio/b1f51a511f1da0cd.mp3",
+    "orange": "/audio/1b4c9133da73a711.mp3",
+    "pink": "/audio/a67a41c8bc79d5da.mp3",
+    "mother": "/audio/cf0622ef2a661cd2.mp3",
+    "father": "/audio/88a1881f0025cf71.mp3",
+    "sister": "/audio/1980d3927f07fec9.mp3",
+    "brother": "/audio/0b4bd77cec705cf5.mp3",
+    "baby": "/audio/a3ca38ef0e8554b3.mp3",
+    "grandmother": "/audio/c04d87aa70a7d165.mp3",
+    "A": "/audio/559aead08264d579.mp3",
+    "B": "/audio/df7e70e5021544f4.mp3",
+    "C": "/audio/6b23c0d5f35d1b11.mp3",
+    "D": "/audio/3f39d5c348e5b79d.mp3",
+    "E": "/audio/a9f51566bd6705f7.mp3",
+    "F": "/audio/f67ab10ad4e4c531.mp3",
+    "G": "/audio/333e0a1e27815d0c.mp3",
+    "one": "/audio/7692c3ad3540bb80.mp3",
+    "two": "/audio/3fc4ccfe745870e2.mp3",
+    "three": "/audio/8b5b9db0c13db242.mp3",
+    "four": "/audio/04efaf080f5a3e74.mp3",
+    "five": "/audio/222b0bd51fcef7e6.mp3",
+    "ten": "/audio/e4432baa90819aae.mp3",
+    "twenty": "/audio/7c2c4df740f720b0.mp3",
+    "Keep going!": "/audio/dddfbaf114615e9f.mp3",
+    "Almost there, try again!": "/audio/5d8e678e419f9f35.mp3",
+    "Great effort!": "/audio/fa97eaccc05153c0.mp3",
+    "You can do it!": "/audio/45c47017b00c2f82.mp3"
+  },
+  "byHash": {
+    "77af778b51abd4a3": {
+      "text": "cat",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "cd6357efdd966de8": {
+      "text": "dog",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "7a5179eecc0fe187": {
+      "text": "bird",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "b474a99a2705e23c": {
+      "text": "fish",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "2d2370db2447ff8c": {
+      "text": "duck",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "74fa5327cc0f4e94": {
+      "text": "frog",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "209f76418ece7c93": {
+      "text": "rice",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "985604c2b6024312": {
+      "text": "bread",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "b493d48364afe44d": {
+      "text": "banana",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "8825e76530f87ff5": {
+      "text": "milk",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "3a7bd3e2360a3d29": {
+      "text": "apple",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "34707c3f40dfa20c": {
+      "text": "egg",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "e21a6b0cb193057e": {
+      "text": "pen",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "13809668fb436386": {
+      "text": "pencil",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "5972814068a183e2": {
+      "text": "ruler",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "c018019b6a8b01ab": {
+      "text": "bag",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "92719fe0cf8cd515": {
+      "text": "book",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "ba4788b226aa8dc2": {
+      "text": "green",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "c685a2c9bab235cc": {
+      "text": "yellow",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "16477688c0e00699": {
+      "text": "blue",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "b1f51a511f1da0cd": {
+      "text": "red",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "1b4c9133da73a711": {
+      "text": "orange",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "a67a41c8bc79d5da": {
+      "text": "pink",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "cf0622ef2a661cd2": {
+      "text": "mother",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "88a1881f0025cf71": {
+      "text": "father",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "1980d3927f07fec9": {
+      "text": "sister",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "0b4bd77cec705cf5": {
+      "text": "brother",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "a3ca38ef0e8554b3": {
+      "text": "baby",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "c04d87aa70a7d165": {
+      "text": "grandmother",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "559aead08264d579": {
+      "text": "A",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "df7e70e5021544f4": {
+      "text": "B",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "6b23c0d5f35d1b11": {
+      "text": "C",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "3f39d5c348e5b79d": {
+      "text": "D",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "a9f51566bd6705f7": {
+      "text": "E",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "f67ab10ad4e4c531": {
+      "text": "F",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "333e0a1e27815d0c": {
+      "text": "G",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "7692c3ad3540bb80": {
+      "text": "one",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "3fc4ccfe745870e2": {
+      "text": "two",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "8b5b9db0c13db242": {
+      "text": "three",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "04efaf080f5a3e74": {
+      "text": "four",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "222b0bd51fcef7e6": {
+      "text": "five",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "e4432baa90819aae": {
+      "text": "ten",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "7c2c4df740f720b0": {
+      "text": "twenty",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "dddfbaf114615e9f": {
+      "text": "Keep going!",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "5d8e678e419f9f35": {
+      "text": "Almost there, try again!",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "fa97eaccc05153c0": {
+      "text": "Great effort!",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    },
+    "45c47017b00c2f82": {
+      "text": "You can do it!",
+      "voice": "en-US-AriaNeural",
+      "rate": 85
+    }
+  }
+}

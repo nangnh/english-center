@@ -1,6 +1,10 @@
 // Âm thanh phản hồi tổng hợp bằng Web Audio API (không tải file ngoài).
 // Suy biến an toàn khi AudioContext không khả dụng.
 
+// Câu động viên dùng nguồn chung (single source of truth) ở encouragements.ts.
+// Re-export pickEncouragement để các importer cũ của sound.ts vẫn hoạt động.
+export { pickEncouragement } from "./encouragements";
+
 type AudioCtor = typeof AudioContext;
 
 function getAudioContextCtor(): AudioCtor | null {
@@ -79,16 +83,4 @@ export function playWrongSound(): void {
     ],
     "sine"
   );
-}
-
-/** Lời động viên tiếng Việt khi sai (xoay vòng, không trách mắng). */
-const ENCOURAGEMENTS = [
-  "Không sao, cố lên nhé! 🌱",
-  "Gần đúng rồi, thử lại lần sau nào!",
-  "Cùng xem lại một chút nhé 🌼",
-  "Mỗi lần sai là một lần học thêm!",
-];
-
-export function pickEncouragement(seed = Date.now()): string {
-  return ENCOURAGEMENTS[Math.abs(seed) % ENCOURAGEMENTS.length];
 }

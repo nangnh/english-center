@@ -16,7 +16,7 @@ test("luyện nhanh: làm 5 câu và xem kết quả", async ({ page }) => {
 });
 
 test("luyện nhanh không ảnh hưởng mở khóa vòng", async ({ page }) => {
-  await page.goto("/play/quick-colours");
+  await page.goto("/play/quick-colors");
   await answerAllQuestions(page, 5);
   await expect(page).toHaveURL(/\/results\//);
   await page.goto("/rounds");

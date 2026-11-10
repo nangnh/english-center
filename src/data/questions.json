@@ -2329,7 +2329,7 @@
   {
     "id": "c-114",
     "kind": "choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 1,
     "promptVi": "Từ tiếng Anh nào có nghĩa là “màu xanh lá”?",
     "questionEn": "Choose the word for \"màu xanh lá\".",
@@ -2357,7 +2357,7 @@
   {
     "id": "c-115",
     "kind": "choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 1,
     "promptVi": "Từ tiếng Anh nào có nghĩa là “màu vàng”?",
     "questionEn": "Choose the word for \"màu vàng\".",
@@ -2385,7 +2385,7 @@
   {
     "id": "c-116",
     "kind": "choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 2,
     "promptVi": "Từ tiếng Anh nào có nghĩa là “màu xanh dương”?",
     "questionEn": "Choose the word for \"màu xanh dương\".",
@@ -2413,7 +2413,7 @@
   {
     "id": "c-117",
     "kind": "choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 2,
     "promptVi": "Từ tiếng Anh nào có nghĩa là “màu đỏ”?",
     "questionEn": "Choose the word for \"màu đỏ\".",
@@ -2441,7 +2441,7 @@
   {
     "id": "c-118",
     "kind": "choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 3,
     "promptVi": "Từ tiếng Anh nào có nghĩa là “màu cam”?",
     "questionEn": "Choose the word for \"màu cam\".",
@@ -2469,7 +2469,7 @@
   {
     "id": "c-119",
     "kind": "choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 3,
     "promptVi": "Từ tiếng Anh nào có nghĩa là “màu hồng”?",
     "questionEn": "Choose the word for \"màu hồng\".",
@@ -2497,7 +2497,7 @@
   {
     "id": "f-120",
     "kind": "fill",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 1,
     "promptVi": "Điền từ tiếng Anh nghĩa là “màu xanh lá”.",
     "questionEn": "màu xanh lá → ___",
@@ -2509,7 +2509,7 @@
   {
     "id": "f-121",
     "kind": "fill",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 1,
     "promptVi": "Điền từ tiếng Anh nghĩa là “màu vàng”.",
     "questionEn": "màu vàng → ___",
@@ -2521,7 +2521,7 @@
   {
     "id": "f-122",
     "kind": "fill",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 2,
     "promptVi": "Điền từ tiếng Anh nghĩa là “màu xanh dương”.",
     "questionEn": "màu xanh dương → ___",
@@ -2533,7 +2533,7 @@
   {
     "id": "f-123",
     "kind": "fill",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 2,
     "promptVi": "Điền từ tiếng Anh nghĩa là “màu đỏ”.",
     "questionEn": "màu đỏ → ___",
@@ -2545,7 +2545,7 @@
   {
     "id": "f-124",
     "kind": "fill",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 3,
     "promptVi": "Điền từ tiếng Anh nghĩa là “màu cam”.",
     "questionEn": "màu cam → ___",
@@ -2557,7 +2557,7 @@
   {
     "id": "f-125",
     "kind": "fill",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 3,
     "promptVi": "Điền từ tiếng Anh nghĩa là “màu hồng”.",
     "questionEn": "màu hồng → ___",
@@ -2569,7 +2569,7 @@
   {
     "id": "l-126",
     "kind": "listening-choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 1,
     "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
     "speechTextEn": "green",
@@ -2601,7 +2601,7 @@
   {
     "id": "l-127",
     "kind": "listening-choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 1,
     "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
     "speechTextEn": "yellow",
@@ -2633,7 +2633,7 @@
   {
     "id": "l-128",
     "kind": "listening-choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 2,
     "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
     "speechTextEn": "blue",
@@ -2665,7 +2665,7 @@
   {
     "id": "l-129",
     "kind": "listening-choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 2,
     "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
     "speechTextEn": "red",
@@ -2697,7 +2697,7 @@
   {
     "id": "l-130",
     "kind": "listening-choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 3,
     "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
     "speechTextEn": "orange",
@@ -2729,7 +2729,7 @@
   {
     "id": "l-131",
     "kind": "listening-choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 3,
     "promptVi": "Bấm Nghe rồi chọn nghĩa tiếng Việt đúng.",
     "speechTextEn": "pink",
@@ -2761,7 +2761,7 @@
   {
     "id": "p-132",
     "kind": "picture-choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 1,
     "promptVi": "Chọn tranh đúng với từ “green”.",
     "questionEn": "Which picture shows \"green\"?",
@@ -2788,7 +2788,7 @@
   {
     "id": "p-133",
     "kind": "picture-choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 1,
     "promptVi": "Chọn tranh đúng với từ “yellow”.",
     "questionEn": "Which picture shows \"yellow\"?",
@@ -2815,7 +2815,7 @@
   {
     "id": "p-134",
     "kind": "picture-choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 2,
     "promptVi": "Chọn tranh đúng với từ “blue”.",
     "questionEn": "Which picture shows \"blue\"?",
@@ -2842,7 +2842,7 @@
   {
     "id": "p-135",
     "kind": "picture-choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 2,
     "promptVi": "Chọn tranh đúng với từ “red”.",
     "questionEn": "Which picture shows \"red\"?",
@@ -2869,7 +2869,7 @@
   {
     "id": "p-136",
     "kind": "picture-choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 3,
     "promptVi": "Chọn tranh đúng với từ “orange”.",
     "questionEn": "Which picture shows \"orange\"?",
@@ -2896,7 +2896,7 @@
   {
     "id": "p-137",
     "kind": "picture-choice",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 3,
     "promptVi": "Chọn tranh đúng với từ “pink”.",
     "questionEn": "Which picture shows \"pink\"?",
@@ -2923,7 +2923,7 @@
   {
     "id": "m-138",
     "kind": "matching",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 1,
     "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
     "pairs": [
@@ -2948,7 +2948,7 @@
   {
     "id": "m-139",
     "kind": "matching",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 1,
     "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
     "pairs": [
@@ -2973,7 +2973,7 @@
   {
     "id": "m-140",
     "kind": "matching",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 2,
     "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
     "pairs": [
@@ -2998,7 +2998,7 @@
   {
     "id": "m-141",
     "kind": "matching",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 2,
     "promptVi": "Nối mỗi từ tiếng Anh với nghĩa tiếng Việt đúng.",
     "pairs": [
@@ -3023,7 +3023,7 @@
   {
     "id": "s-142",
     "kind": "spell-fill",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 1,
     "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “màu xanh lá”.",
     "answerEn": "green",
@@ -3036,7 +3036,7 @@
   {
     "id": "s-143",
     "kind": "spell-fill",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 1,
     "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “màu vàng”.",
     "answerEn": "yellow",
@@ -3049,7 +3049,7 @@
   {
     "id": "s-144",
     "kind": "spell-fill",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 2,
     "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “màu xanh dương”.",
     "answerEn": "blue",
@@ -3062,7 +3062,7 @@
   {
     "id": "s-145",
     "kind": "spell-fill",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 2,
     "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “màu đỏ”.",
     "answerEn": "red",
@@ -3074,7 +3074,7 @@
   {
     "id": "s-146",
     "kind": "spell-fill",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 3,
     "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “màu cam”.",
     "answerEn": "orange",
@@ -3087,7 +3087,7 @@
   {
     "id": "s-147",
     "kind": "spell-fill",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 3,
     "promptVi": "Điền chữ còn thiếu để hoàn thành từ nghĩa là “màu hồng”.",
     "answerEn": "pink",
@@ -3100,7 +3100,7 @@
   {
     "id": "u-148",
     "kind": "unscramble",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 1,
     "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “màu xanh lá”.",
     "answerEn": "green",
@@ -3109,7 +3109,7 @@
   {
     "id": "u-149",
     "kind": "unscramble",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 1,
     "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “màu vàng”.",
     "answerEn": "yellow",
@@ -3118,7 +3118,7 @@
   {
     "id": "u-150",
     "kind": "unscramble",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 2,
     "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “màu xanh dương”.",
     "answerEn": "blue",
@@ -3127,7 +3127,7 @@
   {
     "id": "u-151",
     "kind": "unscramble",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 2,
     "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “màu đỏ”.",
     "answerEn": "red",
@@ -3136,7 +3136,7 @@
   {
     "id": "u-152",
     "kind": "unscramble",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 3,
     "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “màu cam”.",
     "answerEn": "orange",
@@ -3145,7 +3145,7 @@
   {
     "id": "u-153",
     "kind": "unscramble",
-    "topic": "colours",
+    "topic": "colors",
     "difficulty": 3,
     "promptVi": "Sắp xếp các chữ cái để tạo từ nghĩa là “màu hồng”.",
     "answerEn": "pink",

@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "audio:gen": "tsx scripts/audio/generate-audio.ts",
+    "prebuild": "npm run audio:gen",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -30,10 +32,12 @@
     "autoprefixer": "10.4.20",
     "eslint": "8.57.1",
     "eslint-config-next": "14.2.15",
+    "fast-check": "^3.23.2",
     "jsdom": "25.0.1",
+    "msedge-tts": "2.1.1",
     "postcss": "8.4.47",
-    "tsx": "4.19.1",
     "tailwindcss": "3.4.14",
+    "tsx": "4.19.1",
     "typescript": "5.6.3",
     "vitest": "2.1.3"
   }

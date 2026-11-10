@@ -5,7 +5,7 @@ import { getQuestionsByTopic } from "@/data";
 
 const TOPIC_EMOJI: Record<string, string> = {
   alphabet: "🔤",
-  colours: "🎨",
+  colors: "🎨",
   animals: "🐾",
   family: "👪",
   "school-things": "🎒",

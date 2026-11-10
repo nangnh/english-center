@@ -7,7 +7,7 @@ Xây website luyện tiếng Anh cho học sinh lớp 2, lấy cảm hứng từ
 ## Người dùng và trải nghiệm
 - Trẻ 7–8 tuổi; hướng dẫn tiếng Việt ngắn, nội dung học tiếng Anh đơn giản; phụ huynh xem tiến bộ trên cùng thiết bị.
 - Trang chủ → chọn chủ đề hoặc vòng luyện → làm bài → xem giải thích và tiến bộ.
-- Chủ đề: alphabet, colours, animals, family, school things, numbers 1–20, food. Đây là phạm vi tham khảo phù hợp lứa tuổi; không tuyên bố đã được Bộ GDĐT thẩm định hoặc khớp một bộ sách cụ thể.
+- Chủ đề: alphabet, colors, animals, family, school things, numbers 1–20, food. Đây là phạm vi tham khảo phù hợp lứa tuổi; không tuyên bố đã được Bộ GDĐT thẩm định hoặc khớp một bộ sách cụ thể.
 - MVP: 8 vòng, mỗi vòng 20 câu/4 chặng; chế độ luyện nhanh 5 câu không giới hạn thời gian; chế độ thử thách tối đa 30 phút/vòng.
 - 7 dạng câu: chọn đáp án, chọn tranh, nối cặp, điền chữ/từ ngắn, nghe chọn đáp án, điền chữ cái còn thiếu (spell-fill), sắp xếp chữ cái (unscramble). Hai dạng chữ cái là trò chơi chữ phổ thông tự sáng tác, không mô phỏng nhận diện IOE. Không cần nhận diện giọng nói.
 - Điểm, lịch sử, mở khóa vòng, huy hiệu và bảng thành tích chỉ lưu trên thiết bị. Không giả vờ có bảng xếp hạng toàn quốc.

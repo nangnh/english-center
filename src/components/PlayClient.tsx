@@ -33,6 +33,12 @@ import { useSettings } from "@/components/useSettings";
 import { getBrowserSpeechEnv, speak, cancelSpeech } from "@/lib/speech";
 import { autoSpeakText } from "@/lib/keyword";
 import { playCorrectSound, playWrongSound, pickEncouragement } from "@/lib/sound";
+import {
+  playEncouragement,
+  type AudioEnv,
+  type AudioManifest,
+} from "@/lib/audio";
+import { getAudioManifest } from "@/lib/audioManifest";
 
 interface PlayClientProps {
   param: string;
@@ -62,6 +68,40 @@ export function PlayClient({ param }: PlayClientProps) {
   const [confetti, setConfetti] = useState(false);
   const [encouragement, setEncouragement] = useState<string | null>(null);
   const inputFocusRef = useRef<HTMLDivElement | null>(null);
+
+  // AudioEnv cho câu động viên được dựng LAZILY (chỉ khi trả lời sai), giống
+  // AudioButton: manifest tải một lần qua getAudioManifest() rồi cache trong ref.
+  // Không tạo HTMLAudioElement nào khi mở trang (R5.5).
+  const encouragementEnvRef = useRef<AudioEnv | null>(null);
+  const encouragementManifestRef = useRef<AudioManifest | null>(null);
+
+  // Phát lời động viên tiếng Anh bản ngữ theo kiểu "fire-and-forget":
+  // dựng AudioEnv lazily (await getAudioManifest một lần) rồi gọi playEncouragement
+  // (non-blocking, nuốt mọi lỗi/PlayOutcome). KHÔNG await từ caller và KHÔNG đổi
+  // trạng thái câu hỏi theo kết quả — phiên học tiếp diễn bất kể PlayOutcome (R8.4).
+  const speakEncouragement = useCallback((encouragementText: string) => {
+    void (async () => {
+      try {
+        let env = encouragementEnvRef.current;
+        if (!env) {
+          if (!encouragementManifestRef.current) {
+            encouragementManifestRef.current = await getAudioManifest();
+          }
+          env = {
+            manifest: encouragementManifestRef.current,
+            createAudio: (src: string) => new Audio(src),
+            speechEnv: getBrowserSpeechEnv(),
+            now: () => Date.now(),
+          };
+          encouragementEnvRef.current = env;
+        }
+        // playEncouragement là non-blocking và không ném (R8.2, R8.3, R8.4).
+        playEncouragement(env, encouragementText);
+      } catch {
+        // Nuốt mọi lỗi dựng env — không bao giờ làm gián đoạn phiên học (R8.4).
+      }
+    })();
+  }, []);
 
   // Khởi tạo lượt sau khi tiến bộ sẵn sàng (resume nếu còn lượt vòng dở).
   useEffect(() => {
@@ -222,10 +262,16 @@ export function PlayClient({ param }: PlayClientProps) {
       if (soundOn) playCorrectSound();
     } else {
       setConfetti(false);
-      setEncouragement(pickEncouragement(current.id.length + attempt.currentIndex));
+      const encouragementText = pickEncouragement(
+        current.id.length + attempt.currentIndex
+      );
+      setEncouragement(encouragementText);
       if (soundOn) playWrongSound();
+      // Phát câu động viên tiếng Anh bản ngữ cho ĐÚNG chuỗi đang hiển thị
+      // (non-blocking, không await, không đổi trạng thái câu hỏi theo kết quả — R8.2/R8.4).
+      speakEncouragement(encouragementText);
     }
-  }, [attempt, current, draft, persistPlaying, soundOn]);
+  }, [attempt, current, draft, persistPlaying, soundOn, speakEncouragement]);
 
   const handleNext = useCallback(() => {
     if (!attempt) return;
